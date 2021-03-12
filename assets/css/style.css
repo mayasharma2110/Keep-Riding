@@ -1,0 +1,25 @@
+body {color: red;}
+
+/* Gneral rules */
+
+* {
+    margin: 0; 
+    padding: 0; 
+    border: 0;
+}
+
+/* navbar */
+
+.navbar-light .navbar-brand {
+    color: #5d3316;
+}
+
+.nav-item {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5d3316;
+}
+
