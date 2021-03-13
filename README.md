@@ -33,6 +33,8 @@ The two main colors used are brown and gold.
 
 * Imagery:
 
+Hero-image2 is a picture I have taken. 
+
 ## Wireframes
 
 # Features

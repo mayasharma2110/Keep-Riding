@@ -1,6 +1,6 @@
-body {color: red;}
 
-/* Gneral rules */
+
+/* General rules */
 
 * {
     margin: 0; 
@@ -10,16 +10,74 @@ body {color: red;}
 
 /* navbar */
 
-.navbar-light .navbar-brand {
-    color: #5d3316;
+.navbar {
+    background-color: palegoldenrod;
 }
 
-.nav-item {
-    text-align: right;
-    padding-right: 10px;
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: saddlebrown;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #5d3316;
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: saddlebrown;
 }
 
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .active .nav-link:hover {
+    color: royalblue;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+    border-bottom: 1px solid saddlebrown;
+}
+
+/* heroimage */
+
+.heroimage {
+    background-image: url(../images/hero-image2.jpg);
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+@media screen and (min-width: 768px) {
+    .heroimage {
+        height: 450px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+     .heroimage {
+        height: 550px;
+     }
+}
+
+/* footer */
+
+footer {
+    background-color: palegoldenrod;
+}
+
+.socialmedia {
+  text-align: center;
+}
+
+.socialmedia li {
+  display: inline;
+}
+
+.socialmedia i {
+    padding: 5%;
+  /* margin: 1%;
+  padding: 5%; */
+  font-size: 150%; 
+  color: saddlebrown;
+}
+
+.socialmedia i:hover {
+    color: royalblue;
+}
