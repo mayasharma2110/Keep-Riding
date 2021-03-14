@@ -1,12 +1,12 @@
 # Keep Riding
 
-## link to live project
+[Link to live project.](https://mayasharma2110.github.io/Keep-Riding/)
 
 This is a website for a horse riding school. It is aimed for those who are interested in taking up horse riding or those with previous experience who wish to improve thier skills.
 The riding school is for those of any age, gender or ability. The business goals are to increase interaction with potential new customers and increase the number of lessons/hacks booked.
 
 It is different from competitors as it offers lessons in dressage and show jumping from a small group of experienced instructors. They give private lessons or small groups lessons and have an indoor and outdoor arena.
-They also offer hacks where you can explore the surrounding area and have a small cafe where you can buy drinks and refreshments.
+They also offer hacks where you can explore the surrounding area and have a small cafe where you can buy refreshments.
 
 # UX
 
@@ -26,23 +26,22 @@ They also offer hacks where you can explore the surrounding area and have a smal
 
 ## Design
 
-* Color Themes: 
-The two main colors used are brown and gold.
+* Color Themes: The three main colors used are yellow, brown and blue.
 
-* Typography:
+* Typography: The two fonts used are from google fonts: these are Roboto Slab for the headings and Montserrat for the body. 
 
-* Imagery:
-
-Hero-image2 is a picture I have taken. 
+* Imagery: 
 
 ## Wireframes
+
+[This is a link to the project wireframes.](../Keep_Riding_Wireframes.bmpr)
 
 # Features
 
 ## Existing Features
 
 * Responsive on mobile, tablet and laptop size devices.
-* Interactive elements: navbar becomes a burger menu on mobile, also hovering over elements gives a color change.
+* Interactive elements: navbar becomes a burger menu on mobile, also hovering over elements (in navigation bar and footer) gives a color change.
 * About Us - allows users to find out who we are and what we do by having them read a short paragraph.
 * Facilities - allows users to find out what specific services we can provide and the facilities we have, by reading a list.
 * Reviews - allows users to find out how other customers have enjoyed our services, by providing reviews from previous and current customers.
@@ -62,6 +61,43 @@ Navbar using bootstrap version 4.
  
 # Testing
 
+## Headers and Footers
+
+* Checked the links in navigation bar and footer worked. 
+* Checked the navigation bar showed the user what page they were on with a bottom border.
+* Checked the navbar is responsive - collapses on small screens and expands on medium and larger size screens.
+* Checked the links in the navigation bar change color and become bold when you hover over them. 
+* Checked the links in the footer change color when you hover over them.
+
+## Index.html
+
+* Checked the hero-image2 is responsive and changes in height on different devices.
+* Checked the 3 sub-headings in index.html change color when you hover over them.
+
+## Prices.html
+
+## Contact.html
+
+## Online validation
+
+* Used chrome developer tools and responsinator.com to check responsiveness on mobile, tablet and laptop devices.
+* Used validator.w3.org to validate html and css code. 
+
+* lighthouse in chrome dev tools for performance and accessibility
+
+## Meets user/owner needs
+
+## Fixed bugs
+
+### Bug 1
+
+Navigation bar - Active page was not showing as the correct color (saddlebrown).
+![Bug1-problem](../images/bug1_1.png)
+I had to add the following code to resolve the problem, I did this using chrome developer tools to inspect the font color of the problem text.
+![Bug1-resolution](../images/bug1_2.png)
+
+## Unfixed bugs
+
 # Deployment
 
 # Credits
@@ -69,5 +105,6 @@ Navbar using bootstrap version 4.
 ## Content
 
 ## Media
+Hero-image2 is a picture I have taken.
 
 ## Acknowledgments
