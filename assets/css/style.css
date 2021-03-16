@@ -23,6 +23,7 @@ body {
 
 .navbar {
     background-color: palegoldenrod;
+    border-bottom: 5px solid saddlebrown;
 }
 
 .navbar-light .navbar-brand, 
@@ -83,6 +84,7 @@ body {
 footer {
     background-color: palegoldenrod;
     margin-top: 20px;
+    border-top: 5px solid saddlebrown;
     /* position: absolute; */
     /* bottom: 0; */
 }
@@ -108,23 +110,16 @@ footer {
 
 /* index.html */
 
-/* .col-12 {
-    max-width: 90%;
-    margin-left: 5%;
+.col-12, .col-md-6, .col-4 {
+    margin-top: 20px;
 }
 
-@media (min-width: 992px) {
-    .facilities {
-    max-width: 45%;
-    margin-left: 4%;}
-} */
-
 .introduction {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 10px 20px 10px 20px;
     background-color: palegoldenrod; 
-    /* border: 1px solid saddlebrown; */
-    
+    border: 1px solid saddlebrown; 
+    height: 100%;
 }
 
 .introduction>h2 {
@@ -151,4 +146,4 @@ footer {
 .facilities ul {
     list-style-type: square;
     color: DarkSlateGrey;
-}
+} 
