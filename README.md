@@ -145,6 +145,11 @@ However, I also took some other images from the internet and information can be 
 
 ## Contact.html
 
+* Tested the "contact us" heading changes colour when you hover over it.
+* Tested the form makes a user enter all text fields (name, email, phone number), tick one of the radio box options and also enter some text in the enquiry textarea.
+* Tested the form only takes a email with a @ in the field.
+* Tested the form is responsive to different size devices, the label, input and textarea widths change based on the device the website is viewed on.
+
 ## Online validation
 
 * Used chrome developer tools and responsinator.com to check responsiveness on mobile, tablet and laptop devices.

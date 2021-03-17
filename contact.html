@@ -17,7 +17,8 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Font awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
     <!-- Local css -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -52,7 +53,65 @@
         </nav>
     </header>
 
-    This is contact!
+    <form action="https://formdump.codeinstitute.net" method="POST">
+
+        <h2>Contact Us!</h2>
+
+        <fieldset class="details">
+            <legend>Your details</legend>
+
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required />
+            <br>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required />
+            <br>
+            <label for="number">Contact Number: </label>
+            <input type="tel" id="number" name="number" required />
+            <br>
+
+        </fieldset>
+
+        <fieldset class="enquiry">
+            <legend>Your enquiry</legend>
+
+            <!-- very sm each option on its own row, 
+                sm 2 options per row
+                med and above all options 1 row -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <input id="question" type="radio" name="type" value="question" required>
+                        <label for="question">Question</label>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <input id="newbooking" type="radio" name="type" value="newbooking">
+                        <label for="newbooking">New Booking</label>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <input id="existingbooking" type="radio" name="type" value="existingbooking">
+                        <label for="existingbooking">Existing Booking</label>
+                    </div>
+                    <div class="col-12 col-sm-6 col-xl-3">
+                        <input id="other" type="radio" name="type" value="other">
+                        <label for="other">Other</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <br> -->
+
+            <label for="enquiry">Enquiry:</label>
+            <br>
+            <textarea id="" rows="5" cols="20" placeholder="How can we help you?" required></textarea>
+            <br>
+
+        </fieldset>
+
+        <input type="submit" />
+        <button type="reset"><strong>Reset</strong></button>
+
+    </form>
 
     <footer>
         <ul class="socialmedia">
