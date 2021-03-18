@@ -27,7 +27,7 @@ The riding school is for those of any age, gender or ability.
 ### Frequent User Goals
 
 * As a frequent user, I want to check the lessons that are offered.
-* As a frequent user, I want to check the cost of the lessons offered and if there are any price increases or reductions.
+* As a frequent user, I want to check the cost of the lessons offered and see if there are any special offers.
 
 ## Strategy
 
@@ -52,7 +52,7 @@ The riding school is for those of any age, gender or ability.
 Key features to be included based on user stories are:
 
 * Responsive website on mobile, tablet and laptop size devices.
-* Interactive elements: navbar becomes a burger menu on mobile, also hovering over elements (in navigation bar and footer) gives a color change.
+* Interactive elements: navbar becomes a burger menu on mobile, also hovering over elements (in navigation bar and footer) gives a colour change.
 * About Us - allows users to find out who we are and what we do by having them read a short paragraph.
 * Facilities - allows users to find out what specific services we can provide and the facilities we have, by reading a list.
 * Reviews - allows users to find out how other customers have enjoyed our services, by providing reviews from previous and current customers.
@@ -72,7 +72,7 @@ All pages of the webiste will have a footer with links to the social media accou
 
 The home page will contain a facilities section explaining what the riding school has to offer and what makes it special from competitors.
 
-The website will comtain a prices section which shows the lessons offered and their prices, including any recent changes (with previous price scored out).
+The website will comtain a prices section which shows the lessons offered and their prices, including any special offers.
 
 The home page will contain a reviews section showing how other customers have enjoyed their time at the riding school.
 
@@ -87,7 +87,8 @@ The website was designed to have 3 pages - home, prices and contact.
 
 ### Colours
 
-The three main colors used in the website are yellow (palegoldenrod), brown (saddlebrown) and blue (royalblue).
+The three main colours used in the website are yellow (palegoldenrod), brown (saddlebrown) and blue (royalblue).
+I picked these colours because I wanted the colour theme to match that of horse riding (brown/beige) however I also wanted some colour to stand out which is why some elements turn blue when the user hovers over them.
 
 ### Typography
 
@@ -103,7 +104,7 @@ However, I also took some other images from the internet and information can be 
 ## Existing Features
 
 * Responsive on mobile, tablet and laptop size devices.
-* Interactive elements: navbar becomes a burger menu on mobile, also hovering over elements (in navigation bar and footer) gives a color change.
+* Interactive elements: navbar becomes a burger menu on mobile, also hovering over elements (in navigation bar and footer) gives a colour change.
 * About Us - allows users to find out who we are and what we do by having them read a short paragraph.
 * Facilities - allows users to find out what specific services we can provide and the facilities we have, by reading a list.
 * Reviews - allows users to find out how other customers have enjoyed our services, by providing reviews from previous and current customers.
@@ -133,22 +134,24 @@ However, I also took some other images from the internet and information can be 
 * Checked the links in navigation bar and footer worked. 
 * Checked the navigation bar showed the user what page they were on with a bottom border.
 * Checked the navbar is responsive - collapses on small screens and expands on medium and larger size screens.
-* Checked the links in the navigation bar change color and become bold when you hover over them. 
-* Checked the links in the footer change color when you hover over them.
+* Checked the links in the navigation bar change colour and become bold when you hover over them. 
+* Checked the links in the footer change colour when you hover over them.
 
 ## Index.html
 
 * Checked the hero-image2 is responsive and changes in height on different devices.
-* Checked the 3 sub-headings in index.html change color when you hover over them.
+* Checked the 3 sub-headings in index.html change colour when you hover over them.
 
 ## Prices.html
+* Checked the 3 sub-headings in prices.html change colour when you hover over them.
+* Checked the elements are reponsive to different size devices.
 
 ## Contact.html
 
-* Tested the "contact us" heading changes colour when you hover over it.
-* Tested the form makes a user enter all text fields (name, email, phone number), tick one of the radio box options and also enter some text in the enquiry textarea.
-* Tested the form only takes a email with a @ in the field.
-* Tested the form is responsive to different size devices, the label, input and textarea widths change based on the device the website is viewed on.
+* Checked the "contact us" heading changes colour when you hover over it.
+* Checked the form makes a user enter all text fields (name, email, phone number), tick one of the radio box options and also enter some text in the enquiry textarea.
+* Checked the form only takes a email with a @ in the field.
+* Checked the form is responsive to different size devices. The label, input and textarea widths change based on the device the website is viewed on.
 
 ## Online validation
 
@@ -163,11 +166,11 @@ However, I also took some other images from the internet and information can be 
 
 ### Bug 1
 
-Navigation bar - Active page was not showing as the correct color (saddlebrown).
+Navigation bar - Active page was not showing as the correct colour (saddlebrown).
 
 ![Bug1-problem](assets/images/bug1_1.png)
 
-I had to add the following code to resolve the problem, I did this using chrome developer tools to inspect the font color of the problem text.
+I had to add the following code to resolve the problem, I did this using chrome developer tools to inspect the font colour of the problem text.
 
 ![Bug1-resolution](assets/images/bug1_2.png)
 

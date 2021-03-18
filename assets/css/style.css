@@ -65,6 +65,7 @@ body {
     width: 100%;
     background-size: cover;
     background-attachment: scroll;
+    border-bottom: 5px solid saddlebrown;
 }
 
 @media screen and (min-width: 768px) {
@@ -151,20 +152,110 @@ footer {
 
 /* prices */
 
+.prices {
+    margin: 50px 20px 50px 20px;
+    background-color: palegoldenrod;
+    border: 1px solid saddlebrown;
+    /* background-image: url(../images/hero-image2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center; */
+    /* height: 200px; */
+    max-width: 100%;
+    /* background-size: cover;
+    background-attachment: scroll; */
+}
+
+@media screen and (min-width: 768px) {
+    .prices {
+        margin: 50px 100px 50px 100px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+     .prices {
+        margin: 50px 150px 50px 150px;
+     }
+}
+
+.prices h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: saddlebrown;
+    font-size: 1.5rem;
+}
+
+.prices .prices-picture {
+    margin-left: 5%;
+    margin-bottom: 20px;
+    width: 90%;
+    max-height: 100%; 
+    background-image: url(../images/hero-image2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 200px;
+    max-width: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+    
+}
+
+/* @media screen and (min-width: 768px) {
+    .prices .prices-picture {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+     .prices .prices-picture {
+        height: 250px;
+     }
+} */
+
+
+.prices h2:hover {
+    color: royalblue;
+}
+
+.prices table {
+    margin-left: 5%;
+    width: 90%;
+    color: saddlebrown;
+    border: 1px solid darkslategrey;
+}
+
+.table th {
+    padding: .25rem;
+    vertical-align: top;
+    border-top: 1px solid DarkSlateGrey;
+    border-bottom: 1px solid DarkSlateGrey;
+    border-left: 1px solid DarkSlateGrey;
+    border-right: 1px solid DarkSlateGrey;
+    color: saddlebrown;
+}
+
+.table td {
+    padding: .25rem;
+    vertical-align: top;
+    border-left: 1px solid DarkSlateGrey;
+    border-right: 1px solid DarkSlateGrey;
+    border-top: 1px dashed DarkSlateGrey;
+    border-top: 1px dashed DarkSlateGrey;
+    color: DarkSlateGrey;
+}
 
 /* form */
 
 form {
     margin: 50px 25px 20px 25px;
     background-color: palegoldenrod;
-
-    background-image: url(../images/hero-image2.jpg);
+    border: 1px solid saddlebrown;
+    /* background-image: url(../images/hero-image2.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center; */
     /* height: 200px; */
-    max-width: 100%;
+    /* max-width: 100%;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: scroll; */
 }
 
 @media screen and (min-width: 768px) {
@@ -218,11 +309,10 @@ form label {
     color: DarkSlateGrey;
     margin-left: 0.5rem;
     font-size: 1rem;
-    /* text-align: right; */
 }
 
 form .details label {
-    width: 40%;
+    min-width: 40%;
 }
 
 
@@ -231,7 +321,7 @@ form .details input {
 }
 
 form .details select {
-    width: 55%;
+    min-width: 55%;
 }
 
 form textarea {
