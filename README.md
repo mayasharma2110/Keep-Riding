@@ -89,6 +89,7 @@ The website was designed to have 3 pages - home, prices and contact.
 
 The three main colours used in the website are yellow (palegoldenrod), brown (saddlebrown) and blue (royalblue).
 I picked these colours because I wanted the colour theme to match that of horse riding (brown/beige) however I also wanted some colour to stand out which is why some elements turn blue when the user hovers over them.
+I also used DarkSlateGrey and whitesmoke colours for some of the text.
 
 ### Typography
 
@@ -97,7 +98,7 @@ The two fonts used are from google fonts these are Roboto Slab for the headings 
 ### Imagery
 
 I used some of my own pictures I had as I have enjoyed doing horse riding in the past. 
-However, I also took some other images from the internet and information can be found in the credits section.
+However, I also took some other images from the internet and further information can be found in the credits section.
 
 # Features
 
@@ -152,6 +153,8 @@ However, I also took some other images from the internet and information can be 
 * Checked the form makes a user enter all text fields (name, email, phone number), tick one of the radio box options and also enter some text in the enquiry textarea.
 * Checked the form only takes a email with a @ in the field.
 * Checked the form is responsive to different size devices. The label, input and textarea widths change based on the device the website is viewed on.
+* Checked the submit button changes colour and background colour when you hover over it.
+* Checked the reset button changes colour and background colour when you hover over it.
 
 ## Online validation
 
@@ -166,7 +169,7 @@ However, I also took some other images from the internet and information can be 
 
 ### Bug 1
 
-Navigation bar - Active page was not showing as the correct colour (saddlebrown).
+Navigation bar - Active page text was not showing as the correct colour (saddlebrown).
 
 ![Bug1-problem](assets/images/bug1_1.png)
 
@@ -176,13 +179,34 @@ I had to add the following code to resolve the problem, I did this using chrome 
 
 ### Bug 2
 
-I wanted some vertical whitespace between the sections in the home page, due to using bootstrap grid layout using margins did not work as expected.
+I wanted some vertical whitespace between the sections in the home page, due to using bootstrap grid layout using margins did not work as desired.
 
 ![Bug2-problem](assets/images/bug2_1.png)
 
 I added a div inside the columns and gave it a width of 100% of the parent element.
 
 ![Bug2-resolution](assets/images/bug2_2.png)
+
+### Bug 3
+
+I wanted the legend for the fieldset to go around the whole box other than the text.
+
+![Bug3-problem](assets/images/bug3_1.png)
+
+Due to bootstrap the legend width was set to 100%, I added width: auto; to the element to solve the problem.
+
+![Bug3-resolution](assets/images/bug3_2.png)
+
+### Bug 4
+
+I had set my labels for contact form to be 40%, however my label "What is your experience/ability?" was greater than 40% width on some screen sizes causing a truncation issue.
+
+![Bug4-problem](assets/images/bug4_1.png)
+
+I changed the property to have a min-width of 40% instead which fixed the problem.
+
+![Bug4-resolution](assets/images/bug4_2.png)
+
 
 ## Unfixed bugs
 
@@ -193,6 +217,10 @@ I added a div inside the columns and gave it a width of 100% of the parent eleme
 ## Content
 
 ## Media
-Hero-image2 is a picture I have taken.
+
+Hero-image is from online and can be found [here](https://www.pexels.com/photo/four-assorted-color-horse-on-grass-fields-near-tall-trees-during-sunset-1366913/).
+Contact-form is from online and can be found [here](https://www.pexels.com/photo/black-horse-running-on-green-field-surrounded-with-trees-101667/).
+
+Please note I did some minor editing to these photos to crop the picture so the horse was in the center of the image.
 
 ## Acknowledgments
