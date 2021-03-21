@@ -89,7 +89,7 @@ The website was designed to have 3 pages - home, prices and contact.
 
 The three main colours used in the website are yellow (palegoldenrod), brown (saddlebrown) and blue (royalblue).
 I picked these colours because I wanted the colour theme to match that of horse riding (brown/beige) however I also wanted some colour to stand out which is why some elements turn blue when the user hovers over them.
-I also used DarkSlateGrey and whitesmoke colours for some of the text.
+I also used DarkSlateGrey and whitesmoke colours for some of the text colour.
 
 ### Typography
 
@@ -97,8 +97,7 @@ The two fonts used are from google fonts these are Roboto Slab for the headings 
 
 ### Imagery
 
-I used some of my own pictures I had as I have enjoyed doing horse riding in the past. 
-However, I also took some other images from the internet and further information can be found in the credits section.
+I found some images from the internet and further information can be found in the credits section.
 
 # Features
 
@@ -138,21 +137,23 @@ However, I also took some other images from the internet and further information
 * Checked the links in the navigation bar change colour and become bold when you hover over them. 
 * Checked the links in the footer change colour when you hover over them.
 
-## Index.html
+## Index/Home Section
 
-* Checked the hero-image2 is responsive and changes in height on different devices.
-* Checked the 3 sub-headings in index.html change colour when you hover over them.
-
-## Prices.html
-* Checked the 3 sub-headings in prices.html change colour when you hover over them.
+* Checked the hero-image is responsive and changes in height on different devices.
+* Checked the hero-image positioning is responsive when viewed on different devices.
 * Checked the elements are reponsive to different size devices.
 
-## Contact.html
+## Prices Section
+* Checked the elements are reponsive to different size devices.
+* Checked there was a bottom margin between picture and tables when viewed on small device and right margin when viewed on medium and larger devices due to the change in layout.
 
-* Checked the "contact us" heading changes colour when you hover over it.
+## Contact Section
+
 * Checked the form makes a user enter all text fields (name, email, phone number), tick one of the radio box options and also enter some text in the enquiry textarea.
 * Checked the form only takes a email with a @ in the field.
 * Checked the form is responsive to different size devices. The label, input and textarea widths change based on the device the website is viewed on.
+* Checked the form is responsive to different size devices. The width and left/right margins change based on the device the website is viewed on.
+* Checked the form is responsive to different size devices. The positioning of the background image changes based on the device the website is viewed on.
 * Checked the submit button changes colour and background colour when you hover over it.
 * Checked the reset button changes colour and background colour when you hover over it.
 
@@ -218,9 +219,10 @@ I changed the property to have a min-width of 40% instead which fixed the proble
 
 ## Media
 
-Hero-image is from online and can be found [here](https://www.pexels.com/photo/four-assorted-color-horse-on-grass-fields-near-tall-trees-during-sunset-1366913/).
-Contact-form is from online and can be found [here](https://www.pexels.com/photo/black-horse-running-on-green-field-surrounded-with-trees-101667/).
+I found the following images online from pexels.com: hero-image, lessons, hacks, contact-form
 
-Please note I did some minor editing to these photos to crop the picture so the horse was in the center of the image.
+I found the following images online from unsplash.com: special-offers,
+
+Please note I did some minor editing to some of these photos.
 
 ## Acknowledgments
