@@ -75,7 +75,7 @@ body {
     .navbar-light .show .navbar-nav .nav-link, .navbar-light .collapsing .navbar-nav .nav-link {
     font-size: 1.6rem;
     padding: 0.2rem;
-    border-bottom: none;}
+    text-decoration: none;}
 }
 
 /* footer */
@@ -96,13 +96,8 @@ footer {
     
 }
 
-.socialmedia a {
-    height: 2rem;
-    width: 2rem;
-}
-
 .socialmedia i {
-    padding: 1rem 10%;
+    padding: 1rem 7%;
     font-size: 1.8rem; 
     color: saddlebrown;
 }
