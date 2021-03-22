@@ -53,16 +53,40 @@
         </nav>
     </header>
 
-    <div class="heroimage">
-        <div class="heading">
-            <h2>Keep Riding</h2>
-            <h3>Find out more about us below and reach your full riding potential!</h3>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/images/carousel-img1.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/images/carousel-img2.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/images/carousel-img3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/images/carousel-img4.jpg" alt="Fourth slide">
+            </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 
-    <section class="container-fluid">
-        <div class="row home">
-            <div class="col-12 col-lg-4">
+    <div class="container-fluid home">
+        <div class="row">
+            <div class="col-12 ">
                 <div class="introduction about-us">
                     <h2>About Us</h2>
                     <p>
@@ -76,7 +100,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6">
                 <div class="introduction facilities">
                     <h2>Facilities</h2>
                     <ul>
@@ -89,7 +113,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6">
                 <div class="introduction reviews">
                     <h2>Reviews</h2>
                     <p>"Lovely horses and staff, I have enjoyed my first lesson and look forward to coming back."</p>
@@ -99,7 +123,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <footer>
         <ul class="socialmedia">

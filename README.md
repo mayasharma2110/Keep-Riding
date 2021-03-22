@@ -219,10 +219,14 @@ I changed the property to have a min-width of 40% instead which fixed the proble
 
 ## Media
 
-I found the following images online from pexels.com: hero-image, lessons, hacks, contact-form
+Carousel-img4 is a picture I have taken myself.
 
-I found the following images online from unsplash.com: special-offers,
+I found the following images online from pexels.com: contact-img, lessons, hacks, contact-form and carousel-img3.
 
-Please note I did some minor editing to some of these photos.
+I found the following images online from unsplash.com: special-offers and carousel-img2.
+
+I found the following image from stocksnap.io: carousel-img1.
+
+Please note I did minor editing (cropping only) to some of these photos.
 
 ## Acknowledgments
