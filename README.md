@@ -39,10 +39,9 @@ The riding school is for those of any age, gender or ability.
 
 ### User goals/needs
 
-* For the school to offer lessons for new and experienced riders. 
-* For the school to have a range of lesson options for experienced riders - both dressage and show jumping.
-* For the school to have a small group of experienced instructors. 
-* For the school to have a range of horses to suit riders of any ability.
+* To see what the school offers in terms of facilites, lessons and prices.
+* To be able to contact the school to ask for more information or book.
+* To be able to see some pictures of the horses and riding.
 * For the school to offer private and small groups lessons, so they can improve quicker.
 * For the school to have an indoor and outdoor areana(s), so that you can ride in any weather conditions.
 * For the school to offer hacks for a more relaxed riding experience.
@@ -53,6 +52,7 @@ Key features to be included based on user stories are:
 
 * Responsive website on mobile, tablet and laptop size devices.
 * Interactive elements: navbar becomes a burger menu on mobile, also hovering over elements (in navigation bar and footer) gives a colour change.
+* Interactive elements: on the home page there is a carousel where users can scroll through some picutres.
 * About Us - allows users to find out who we are and what we do by having them read a short paragraph.
 * Facilities - allows users to find out what specific services we can provide and the facilities we have, by reading a list.
 * Reviews - allows users to find out how other customers have enjoyed our services, by providing reviews from previous and current customers.
@@ -83,13 +83,20 @@ The website will comtain a contact section which alows users to get in touch wit
 I used Balsamiq to make the wireframes for this project and they can be found [here](assets/Keep_Riding_Wireframes.bmpr).
 The website was designed to have 3 pages - home, prices and contact.
 
+All 3 pages are designed to have similar general shape in terms of margins and padding.
+I also aimed for there to be some content hinting where possible to encourage the user to keep scrolling.
+
 ## Surface
 
 ### Colours
 
-The three main colours used in the website are yellow (palegoldenrod), brown (saddlebrown) and blue (royalblue).
-I picked these colours because I wanted the colour theme to match that of horse riding (brown/beige) however I also wanted some colour to stand out which is why some elements turn blue when the user hovers over them.
-I also used DarkSlateGrey and whitesmoke colours for some of the text colour.
+The two main colours used in the website are yellow (palegoldenrod) and brown (saddlebrown).
+I picked these colours because I wanted the colour theme to match that of horse riding (brown/beige).
+
+However, I did not want the website to feel dull or bland so I made some elements turn blue (royalblue) when the user hovers over them.
+I also picked picutres with some brighter colours in them, where possible, to help make the website more pleasing to the eye.
+
+I used DarkSlateGrey and whitesmoke colours for most of the text colour and saddlebrown for headings.
 
 ### Typography
 
@@ -121,6 +128,7 @@ I found some images from the internet and further information can be found in th
 * CSS - used to add style and colour to the content.
 * Bootstrap - grid layout was used to ensure the content was responsive to different device sizes (mobile, tablet and laptop).
 * Javascript - used bootstrap javascript to that the navbar could collpase when viewed on small screens but expand on medium and larger size screens.
+* Javascript - used bootstrap to create my carousel of images on the home page.
 * Gitpod - used to write the code for the website.
 * Github - used to store the current and previous versions of the code. It was also used to host the live website through github pages. 
 * Google fonts - used to import the Roboto Slab and Montserrat font families that are used throught the website.
@@ -139,16 +147,20 @@ I found some images from the internet and further information can be found in th
 
 ## Index/Home Section
 
-* Checked the hero-image is responsive and changes in height on different devices.
-* Checked the hero-image positioning is responsive when viewed on different devices.
+* Checked the carousel is responsive and changes image automatically. 
+I also checked the controls and indicators work as expected to allow the user to view a specific image. 
 * Checked the elements are reponsive to different size devices.
 
 ## Prices Section
 * Checked the elements are reponsive to different size devices.
 * Checked there was a bottom margin between picture and tables when viewed on small device and right margin when viewed on medium and larger devices due to the change in layout.
+* Checked the images look good when viewed on different screen sizes.
 
 ## Contact Section
 
+* Checked the contact-img is responsive and changes in height on different devices.
+* Checked the contact-img positioning is responsive when viewed on different devices.
+* Checked the contact-form image positioning is responsive when viewed on different devices.
 * Checked the form makes a user enter all text fields (name, email, phone number), tick one of the radio box options and also enter some text in the enquiry textarea.
 * Checked the form only takes a email with a @ in the field.
 * Checked the form is responsive to different size devices. The label, input and textarea widths change based on the device the website is viewed on.
@@ -159,7 +171,9 @@ I found some images from the internet and further information can be found in th
 
 ## Online validation
 
+* I checked the website on chrome, microsoft edge and internet explorer browsers.
 * Used chrome developer tools and responsinator.com to check responsiveness on mobile, tablet and laptop devices.
+I also checked the website on my 15 inch laptop, 20 inch monitor and sony smartphone.
 * Used validator.w3.org to validate html and css code. 
 
 * lighthouse in chrome dev tools for performance and accessibility
@@ -168,7 +182,9 @@ I found some images from the internet and further information can be found in th
 
 ## Fixed bugs
 
-### Bug 1
+### Major bugs
+
+#### Bug 1
 
 Navigation bar - Active page text was not showing as the correct colour (saddlebrown).
 
@@ -176,38 +192,37 @@ Navigation bar - Active page text was not showing as the correct colour (saddleb
 
 I had to add the following code to resolve the problem, I did this using chrome developer tools to inspect the font colour of the problem text.
 
-![Bug1-resolution](assets/images/bug1_2.png)
+![Bug1-resolution](assets/images/bug1_2.png) 
 
-### Bug 2
+#### Bug 2
 
-I wanted some vertical whitespace between the sections in the home page, due to using bootstrap grid layout using margins did not work as desired.
+When the hamburger menu was opened on a small screen I wanted the naviagtional items to have smaller text and less padding.
+I also did not want the underline to be shown ont he active page in this circumstance.
 
-![Bug2-problem](assets/images/bug2_1.png)
+From looking in chrome developer tools I thought I could target 
+".navbar-light .show .navbar-nav .nav-link, .navbar-light .collapsing .navbar-nav .nav-link"
+as I noticed the change in the classes of the div element from collapse to collapsing to collapse show.
+However the div has "collapse show" classes when viewed on a larger device and not just when the navbar becomes a hamburger menu.
+I targeted the above elements within a media query to solve this.
 
-I added a div inside the columns and gave it a width of 100% of the parent element.
+#### Bug 3
 
-![Bug2-resolution](assets/images/bug2_2.png)
+For the carousel the images I picked had different aspect ratios, 
+and this caused the overall height of the element to change every few seconds which was not pleasant to view 
+as the below elements also changed position due to the carousel. 
+I resolved this by making sure all the images had the same aspect ratio using cropping.
 
-### Bug 3
+### Minor bugs/fixes
 
-I wanted the legend for the fieldset to go around the whole box other than the text.
-
-![Bug3-problem](assets/images/bug3_1.png)
-
-Due to bootstrap the legend width was set to 100%, I added width: auto; to the element to solve the problem.
-
-![Bug3-resolution](assets/images/bug3_2.png)
-
-### Bug 4
-
-I had set my labels for contact form to be 40%, however my label "What is your experience/ability?" was greater than 40% width on some screen sizes causing a truncation issue.
-
-![Bug4-problem](assets/images/bug4_1.png)
-
+* For the carousel I added a 4th indicator by adding an extra list iten to the carousel-indicators ordered list
+* For the text on the contact-img this was hard to pick a suitable colour for the text as the picutre has many colours.
+I added an black transparent overlay so that the white text could be seen easier.
+* In the form I wanted the fieldset dotted line to go around the whole element.
+Due to bootstrap the fieldset legend width was set to 100%, discovered in chrome developer tools, I added width: auto; to the element to solve the problem.
+* In the form I made the textarea cols responsive by adding width: 100%; to the element.
+* In the form I had set my labels for contact form to have a width of 40%, 
+however my label "What is your experience/ability?" was greater than 40% width on some screen sizes causing a truncation issue.
 I changed the property to have a min-width of 40% instead which fixed the problem.
-
-![Bug4-resolution](assets/images/bug4_2.png)
-
 
 ## Unfixed bugs
 
