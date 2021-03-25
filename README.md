@@ -64,17 +64,17 @@ Key features to be included based on user stories are:
 
 All pages of the webiste will have a consistent navigaton bar - which collapses when viewed on a small screen.
 
-The home page will contain an about us section explaining the goals of the riding school.
+All pages of the webiste will have a footer with links to the social media accounts that users can view and follow to keep up to date with the company.
 
 The website will use bootstrap grids to make the layout responsive to different devices and screen sizes.
 
-All pages of the webiste will have a footer with links to the social media accounts that users can view and follow to keep up to date with the company.
+The home page will contain an about us section explaining the goals of the riding school.
 
 The home page will contain a facilities section explaining what the riding school has to offer and what makes it special from competitors.
 
-The website will comtain a prices section which shows the lessons offered and their prices, including any special offers.
-
 The home page will contain a reviews section showing how other customers have enjoyed their time at the riding school.
+
+The website will comtain a prices section which shows the lessons offered and their prices, including any special offers.
 
 The website will comtain a contact section which alows users to get in touch with the school to request more information or book a lesson.
 
@@ -112,6 +112,7 @@ I found some images from the internet and further information can be found in th
 
 * Responsive on mobile, tablet and laptop size devices.
 * Interactive elements: navbar becomes a burger menu on mobile, also hovering over elements (in navigation bar and footer) gives a colour change.
+* Interactive elements: carousel for user to scroll through photos of horses and horse riding in action.
 * About Us - allows users to find out who we are and what we do by having them read a short paragraph.
 * Facilities - allows users to find out what specific services we can provide and the facilities we have, by reading a list.
 * Reviews - allows users to find out how other customers have enjoyed our services, by providing reviews from previous and current customers.
@@ -160,7 +161,6 @@ I also checked the controls and indicators work as expected to allow the user to
 
 * Checked the contact-img is responsive and changes in height on different devices.
 * Checked the contact-img positioning is responsive when viewed on different devices.
-* Checked the contact-form image positioning is responsive when viewed on different devices.
 * Checked the form makes a user enter all text fields (name, email, phone number), tick one of the radio box options and also enter some text in the enquiry textarea.
 * Checked the form only takes a email with a @ in the field.
 * Checked the form is responsive to different size devices. The label, input and textarea widths change based on the device the website is viewed on.
@@ -172,9 +172,9 @@ I also checked the controls and indicators work as expected to allow the user to
 ## Online validation
 
 * I checked the website on chrome, microsoft edge and internet explorer browsers.
-* Used chrome developer tools and responsinator.com to check responsiveness on mobile, tablet and laptop devices.
+* Used chrome developer tools and [responsinator](https://www.responsinator.com/) to check responsiveness on mobile, tablet and laptop devices.
 I also checked the website on my 15 inch laptop, 20 inch monitor and sony smartphone.
-* Used validator.w3.org to validate html and css code. 
+* Used an [online validator](validator.w3.org) to validate my html and css code and to check for no errors or warnings. 
 
 * lighthouse in chrome dev tools for performance and accessibility
 
@@ -186,13 +186,14 @@ I also checked the website on my 15 inch laptop, 20 inch monitor and sony smartp
 
 #### Bug 1
 
-Navigation bar - Active page text was not showing as the correct colour (saddlebrown).
-
-![Bug1-problem](assets/images/bug1_1.png)
-
+In the navigation bar the active page text was not showing as the correct colour (saddlebrown).
 I had to add the following code to resolve the problem, I did this using chrome developer tools to inspect the font colour of the problem text.
 
-![Bug1-resolution](assets/images/bug1_2.png) 
+.navbar-light .navbar-nav .active>.nav-link {
+    color: saddlebrown;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8rem;
+}
 
 #### Bug 2
 
@@ -212,11 +213,30 @@ and this caused the overall height of the element to change every few seconds wh
 as the below elements also changed position due to the carousel. 
 I resolved this by making sure all the images had the same aspect ratio using cropping.
 
+#### Bug 4
+
+I made the fieldset height to be 100% so that they looked better on larger screens when these are set side by side.
+However this made the height of the parent element (div with class “col-12 col-lg-6” in my case) smaller than that of fieldset height, which was very unexpected.
+This also caused issues with ther submit and reset button positioning and making them very inside the fieldset in some situations.
+
+I tried experiementing with different height values for fieldset and its parent div which did not solve the 
+problem and then I googled and found this [stackoverflow post](https://stackoverflow.com/questions/9116689/fieldset-does-not-follow-its-parents-height
+) and from the post some [runnable example that explains my problem clearly ](http://jsfiddle.net/3hfytpw4/).
+As you can see if you click the second link and then run the example the parent with class “divContainer blahContainer” 
+does not have the height which aligns with that of the fieldsets.
+
+I had to remove padding and margins (top/bottom) of fieldset and add these instead to the parent/child elements 
+of fieldset. 
+Perhaps there is a more elegant solution to what I used but this worked fine for my needs, although a bit cumbersome.
+
 ### Minor bugs/fixes
 
 * For the carousel I added a 4th indicator by adding an extra list iten to the carousel-indicators ordered list
 * For the text on the contact-img this was hard to pick a suitable colour for the text as the picutre has many colours.
 I added an black transparent overlay so that the white text could be seen easier.
+* For the contact form I added a black transparent overlay similar to above so the white test was easier to read 
+where the image had a lighter green colour, however this made the header, submit and reset buttons look faded out due to the overlay.
+I added the position relative to these elements to solve the issue.
 * In the form I wanted the fieldset dotted line to go around the whole element.
 Due to bootstrap the fieldset legend width was set to 100%, discovered in chrome developer tools, I added width: auto; to the element to solve the problem.
 * In the form I made the textarea cols responsive by adding width: 100%; to the element.

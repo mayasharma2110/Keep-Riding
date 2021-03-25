@@ -413,10 +413,6 @@ form .col-12, form .col-md-6, form .col-3 {
     margin-top: 0;
 }
 
-form fieldset {
-    height: 100%;
-}
-
 form>h2 {
     text-align: center;
     font-size: 1.5rem;
@@ -427,30 +423,37 @@ form>h2 {
     position: relative;
 }
 
-form .details , form .enquiry {
-    margin: 1rem 2rem 1rem 2rem;
-    border: 2px dashed whitesmoke;
-    padding: 0.2rem 1rem;
-}
-
 form .details {
     margin-bottom: 2rem;
 }
 
-form .enquiry {
-    margin-top: 2rem;
+form fieldset {
+    height: 100%;
+    margin: 0 1rem;
+    border: 2px dashed whitesmoke;
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 768px)  {
+    form fieldset {
+    margin: 0 2rem;} 
 }
 
 @media screen and (min-width: 992px)  {
 
     form .details {
-    margin: 1rem 0.5rem 1rem 2rem;}
+    margin-bottom: 0;}
 
-    form .enquiry {
-    margin: 1rem 2rem 1rem 0.5rem;}
+    form .details fieldset {
+        margin: 0 0.5rem 0 2rem;
+    }
+
+    form .enquiry fieldset {
+        margin: 0 2rem 0 0.5rem;
+    }
 }
 
-form .details legend, form .enquiry legend {
+form fieldset legend {
     color: whitesmoke;
     width: auto;
     padding: 0;
@@ -459,11 +462,15 @@ form .details legend, form .enquiry legend {
     text-decoration: underline;
 }
 
-form label {
+form fieldset, form legend, form label {
+    font-weight: 600;
     color: whitesmoke;
+}
+
+form label {
     margin-left: 0.5rem;
     font-size: 1rem;
-    /* padding: 0.5rem 0; */
+    margin: 0.5rem 0;
 }
 
 form .details label {
@@ -471,13 +478,16 @@ form .details label {
     padding: 0.5rem 0;
 }
 
-
 form .details input {
     width: 55%;
 }
 
 form .details select {
     min-width: 55%;
+}
+
+form textarea, form select {
+    margin-bottom: 0.5rem;
 }
 
 form textarea {
@@ -490,7 +500,7 @@ form .submit-reset {
 }
 
 form #submit {
-    margin-top: 4rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -530,7 +540,3 @@ form button:hover {
     border: 1px solid royalblue;
 }
 
-form .details, form .enquiry, form .details legend, form .enquiry legend, form label {
-    font-weight: 600;
-    letter-spacing: normal;
-}
