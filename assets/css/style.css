@@ -56,12 +56,12 @@ body {
 
 .navbar-light .navbar-brand:hover, 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: royalblue;
+    color: #0c0cff;
     font-weight: bold;
 }
 
 .navbar-light .navbar-nav .active>.nav-link:hover {
-    color: royalblue;
+    color: #0c0cff;
     font-weight: bold;
 }
 
@@ -103,7 +103,7 @@ footer {
 }
 
 .socialmedia i:hover {
-    color: royalblue;
+    color: #0c0cff;
 }
 
 /* carousel */
@@ -364,6 +364,28 @@ footer {
     color: whitesmoke;
 }
 
+.contact-img #contact-table {
+    background-color: rgba(1,1,1,0.6);
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    max-width: 90%;
+    padding: 1rem;    
+}
+
+.contact-img #contact-table h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.contact-img #contact-table h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: whitesmoke;
+}
+
+
 /* form */
 
 form {
@@ -487,7 +509,7 @@ form .details select {
 }
 
 form textarea, form select {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 form textarea {
@@ -497,46 +519,56 @@ form textarea {
 form .submit-reset {
     width: 100%;
     text-align: center;
-}
-
-form #submit {
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
-form #reset {
-    margin-bottom: 2rem;
+form #submit, form #reset {
+    display: inline-block;
+}
+
+form #submit {
+    margin-right: 10%;
+}
+
+@media screen and (min-width: 992px)  {
+
+    form .submit-reset {
+    text-align: left;
+    margin: 2rem;}
+
+    form #submit {
+    margin-right: 20px;}
+
 }
 
 form input[type="submit"] {
-    /* margin: 0.5rem auto; */
     padding: 0.5rem;
     background-color: palegoldenrod;
     color: saddlebrown;
     font-size: 1.2rem;
-    border: 1px solid saddlebrown;
+    border: 2px solid saddlebrown;
     position: relative;
 }
 
 form input[type="submit"]:hover {
     background-color: saddlebrown;
     color: palegoldenrod;
-    border: 1px solid palegoldenrod;
+    border: 2px solid palegoldenrod;
 }
 
 form button {
-    /* margin: 0.5rem auto; */
     padding: 0.5rem;
-    background-color: royalblue;
-    color: #1d2323;
+    background-color: #0c0cff;
+    color: whitesmoke;
     font-size: 1.2rem;
-    border: 1px solid #1d2323;
+    border: 2px solid whitesmoke;
     position: relative;
 }
 
 form button:hover {
-    background-color: #1d2323;
-    color: royalblue;
-    border: 1px solid royalblue;
+    background-color: whitesmoke;
+    color: #0c0cff;
+    border: 2px solid #0c0cff;
 }
 
