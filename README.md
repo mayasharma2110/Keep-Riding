@@ -310,21 +310,21 @@ TO FILL IN SECTION.
 #### Navigation Bar Colours
 
 In the navigation bar the active page text was not showing as the correct colour (saddlebrown).
-I had to add the following code to resolve the problem, I did this using chrome developer tools to discover the css selector of the problem text.
-
-> .navbar-light .navbar-nav .active>.nav-link {  
-    color: saddlebrown;
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.8rem;
-}
+![Navbar problem](assets/images/navbar-problem.PNG)
+I discovered the problem using chrome developer tools to find the css selector of the problem text.  
+![Navbar fix](assets/images/navbar-fix.PNG)
 
 #### Collapsible Hamburger Menu
 
 When the hamburger menu was opened on a small screen I wanted the naviagtional items to have smaller text and less padding.
-I also did not want the underline to be shown ont he active page in this circumstance.
+I also did not want the underline to be shown on the active page in this circumstance.
 
-From looking in chrome developer tools I thought I could target the below css selectors as 
-I noticed the change in the classes of the div element from "collapse" to "collapsing" to "collapse show". 
+From looking in chrome developer tools I noticed the change in the classes of the div element (highlighted below) 
+from "collapse" to "collapsing" to "collapse show".
+![Hamburger problem](assets/images/hamburger-menu.PNG)
+
+Therefore I thought I could target the below css selectors. 
+
 > .navbar-light .show .navbar-nav .nav-link, .navbar-light .collapsing .navbar-nav .nav-link  
 
 However the div has "collapse show" classes when viewed on a larger device and not just when the navbar becomes a hamburger menu.
@@ -341,15 +341,17 @@ I resolved this by making sure all the images had the same aspect ratio using cr
 #### Form Fieldset
 
 I made the fieldset height to be 100% so that they looked better on larger screens when these are set side by side.  
-However this made the height of the parent element (div with class “col-12 col-lg-6” in my case) smaller than that of fieldset height, which was very unexpected.  
-This also caused issues with the submit and reset button positioning and making them very inside the fieldset in some situations.
+
+However this made the height of the parent element (div with class “col-12 col-lg-6” in my case) smaller 
+than that of fieldset height, which was unexpected.  This also caused issues with the submit and reset button 
+positioning and making them inside the fieldset in some situations.
 
 I tried experiementing with different height values for fieldset and its parent div which did not solve the 
 problem and then I googled and found this [stackoverflow post](https://stackoverflow.com/questions/9116689/fieldset-does-not-follow-its-parents-height
 ) and from the post some [runnable example that explains my problem clearly ](http://jsfiddle.net/3hfytpw4/).  
 
 
-Running the example demontrates the problem clearly (images above) you can see that the parent 
+Running the example demontrates the problem clearly (images below) you can see that the parent 
 does not have the height which aligns with that of the fieldsets.
 
 ![Fieldset problem result](assets/images/fieldset-problem.PNG)
@@ -357,12 +359,11 @@ does not have the height which aligns with that of the fieldsets.
 ![Fieldset problem css](assets/images/fieldset-css.PNG)
 
 After some trial and error I found that commenting out the padding and margins in the css resulted in the below
-dewsired result:
+desired result:
 ![Fieldset problem css](assets/images/fieldset-fix.PNG)
 
-I removed the top/bottom padding and margins of fieldset and add these instead to the parent/child elements 
-of fieldset. Note: the left/right padding and margins did not seem to cause any problems.
-Perhaps there is a more elegant solution to what I used but this worked fine for my needs, although a bit cumbersome.
+I removed the top/bottom padding and margins of fieldset and added these instead to the parent/child elements 
+of fieldset. Note: The left/right padding and margins did not seem to cause any problems. Perhaps there is a more elegant solution to what I used but this worked fine for my needs, although a bit cumbersome.
 
 #### Minor Fixes
 

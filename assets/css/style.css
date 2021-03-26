@@ -68,6 +68,15 @@ body {
     font-weight: bold;
 }
 
+.navbar-light .navbar-toggler {
+    color: palegoldenrod;
+    border: 1px solid saddlebrown;
+}
+
+button:focus {
+    outline: none;
+}
+
 /* footer */
 
 footer {
