@@ -274,11 +274,11 @@ footer {
     border: 1px solid darkslategrey;
 }
 
-.table {
+.prices table {
     background-color: lightblue;
 }
 
-.table th {
+.prices table th {
     padding: .25rem;
     vertical-align: top;
     border-top: 1px solid DarkSlateGrey;
@@ -288,7 +288,7 @@ footer {
     color: DarkSlateGrey;
 }
 
-.table td {
+.prices table td {
     padding: .25rem;
     vertical-align: top;
     border-left: 1px solid DarkSlateGrey;
@@ -303,7 +303,7 @@ footer {
 
 .contact-img {
     width: 90%;
-    height: 400px;
+    height: 450px;
     margin: 2rem 5% 1rem 5%;
     background-color: palegoldenrod;
     border: 1px solid saddlebrown;
@@ -343,12 +343,19 @@ footer {
      }
 }
 
-.contact-img #contact-heading {
-    background-color: rgba(1,1,1,0.6);
+.contact-img .contact-text {
+    max-width: 90%;
     position: absolute;
     top: 5%;
     left: 5%;
-    max-width: 90%;
+    height: 100%;
+}
+
+.contact-img #contact-heading {
+    background-color: rgba(1,1,1,0.6);
+    /* position: absolute;
+    top: 5%;
+    left: 5%; */
     padding: 1rem;    
 }
 
@@ -364,25 +371,67 @@ footer {
     color: whitesmoke;
 }
 
-.contact-img #contact-table {
-    background-color: rgba(1,1,1,0.6);
-    position: absolute;
-    top: 30%;
-    left: 5%;
-    max-width: 90%;
-    padding: 1rem;    
-}
-
-.contact-img #contact-table h2 {
-    font-size: 1.4rem;
+.contact-img #contact-table h3 {
+    font-size: 1.2rem;
     font-weight: 500;
     color: whitesmoke;
 }
 
-.contact-img #contact-table h3 {
-    font-size: 1.2rem;
-    font-weight: normal;
+.contact-img #contact-table {
+    background-color: rgba(1,1,1,0.2);
+    padding: 1rem;   
+    position: absolute;
+    bottom: 10%;
+    width: 100%; 
+}
+
+.contact-img #contact-table table {
+    width: 100%;
     color: whitesmoke;
+    border: 1px solid whitesmoke;
+    margin-bottom: 0;
+}
+
+.contact-img #contact-table table {
+    background-color: transparent;
+}
+
+.contact-img #contact-table table th {
+    padding: 0;
+    vertical-align: top;
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.contact-img #contact-table table td {
+    padding: 0;
+    vertical-align: top;
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+    border-top: 1px dashed whitesmoke;
+    border-top: 1px dashed whitesmoke;
+    color: whitesmoke;
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .contact-img #contact-table table td {
+    font-size: 1rem;}
+
+}
+
+.contact-img #contact-table table .day {
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+.contact-img #contact-table table .openclose {
+    text-align: center;
 }
 
 
