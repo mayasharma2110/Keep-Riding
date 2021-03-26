@@ -1,5 +1,49 @@
 # Keep Riding
 
+## Table of Contents
+
+* [Purpose](#purpose)
+* [UX](#ux)
+  * [User Stories](#user-stories)
+    * [First Time Visitor Goals](#first-time-visitor-goals)
+    * [Returning Visitor Goals](#returning-visitor-goals)
+    * [Frequent User Goals](#frequent-user-goals)
+  * [Strategy](#strategy)
+    * [Business Goals](#business-goals)
+    * [User Goals](#user-goals)
+  * [Scope](#scope)
+  * [Structure](#structure)
+  * [Skeleton](#skeleton)
+    * [Colours](#colours)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+  * [Surface](#surface)
+* [Features](#features)
+    * [Existing Features](#existing-features)
+    * [Features Left to Implement](#features-left-to-inplement)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+  * [Headers and Footers](#headers-and-footers)
+  * [Home Section](#home-section)
+  * [Prices Section](#prices-section)
+  * [Contact Section](#contact-section)
+  * [Online Validation](#online-validation)
+  * [Meets User Needs](#meets-user-needs)
+  * [Fixed Bugs](#fixed-bugs)
+    * [Navigation Bar Colours](#navigation-bar-colours)
+    * [Collapsible Hamburger Menu](#collapsible-hamburger-menu)
+    * [Carousel Images](#carousel-images)
+    * [Form Fieldset](#form-fieldset)
+    * [Minor Fixes](#minor-fixes)
+* [Deployment](#deployment)
+* [Credits](#credits)
+  * [Code](#code)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+
+## Purpose
+
 [Link to live project.](https://mayasharma2110.github.io/Keep-Riding/)
 
 This is a website for a fictional horse riding school.  
@@ -7,11 +51,17 @@ This is a website for a fictional horse riding school.
 It is aimed for those who are interested in taking up horse riding or those with previous experience who wish to improve thier skills.
 The riding school is for those of any age, gender or ability. 
 
-# UX
+![Home Page Mockups](assets/images/.jpg)
 
-## User Stories
+![Prices Page Mockups](assets/images/.PNG)
 
-### First Time Visitor Goals
+![Contact Page Mockups](assets/images/.PNG)
+
+## UX
+
+### User Stories
+
+#### First Time Visitor Goals
 
 * As a first time user, I want to understand the purpose of the website and learn about the riding school.
 
@@ -21,8 +71,7 @@ The riding school is for those of any age, gender or ability.
 
 * As a first time user, I want to see what facilites are offered by the riding school.
 
-
-### Returning Visitor Goals
+#### Returning Visitor Goals
 
 * As a returning user, I want to check the range of lessons that are offered and the prices. 
 
@@ -32,15 +81,15 @@ The riding school is for those of any age, gender or ability.
 
 * As a returning user, I want to find out where I can follow the riding school on social media platforms.
 
-### Frequent User Goals
+#### Frequent User Goals
 
 * As a frequent user, I want to check the lessons that are offered.
 
 * As a frequent user, I want to check the cost of the lessons offered and see if there are any special offers.
 
-## Strategy
+### Strategy
 
-### Business goals
+#### Business goals
 
 * Increase interaction with potential new customers.
 
@@ -48,7 +97,7 @@ The riding school is for those of any age, gender or ability.
 
 * Increase the number of lessons/hacks booked.
 
-### User goals/needs
+#### User Goals
 
 * To see what the school offers in terms of facilites, lessons and prices.
 
@@ -62,7 +111,7 @@ The riding school is for those of any age, gender or ability.
 
 * For the school to offer hacks for a more relaxed riding experience.
 
-## Scope
+### Scope
 
 Key features to be included based on user stories are:
 
@@ -84,7 +133,7 @@ Key features to be included based on user stories are:
 
 * Footer with links to social media accounts - allows the users to keep up to date with the school by following on social media.
 
-## Structure
+### Structure
 
 All pages of the webiste will have a consistent navigaton bar - which collapses when viewed on a small screen.
 
@@ -102,17 +151,21 @@ The website will comtain a prices section which shows the lessons offered and th
 
 The website will comtain a contact section which alows users to get in touch with the school to request more information or book a lesson.
 
-## Skeleton
+### Skeleton
 
-I used Balsamiq to make the wireframes for this project and they can be found [here](assets/Keep_Riding_Wireframes.bmpr).
-The website was designed to have 3 pages - home, prices and contact.
+I used Balsamiq to make the wireframes for this project. The website was designed to have 3 pages - home, prices and contact.
 
 All 3 pages are designed to have similar general shape in terms of margins and padding.
-I also aimed for there to be some content hinting where possible to encourage the user to keep scrolling.
+I also aimed for there to be some content hinting, where possible, to encourage the user to keep scrolling.
 
-## Surface
+![Home Page Wireframes](assets/images/android-chrome-192x192.png)  
+![Prices Page Wireframes](assets/images/android-chrome-192x192.png)  
+![Contact Page Wireframes](assets/images/android-chrome-192x192.png)
 
-### Colours
+The full wireframes can be found [here](assets/Keep_Riding_Wireframes.bmpr).
+### Surface
+
+#### Colours
 
 The two main colours used in the website are yellow (palegoldenrod) and brown (saddlebrown).
 I picked these colours because I wanted the colour theme to match that of horse riding (brown/beige).
@@ -122,17 +175,17 @@ I also picked picutres with some brighter colours in them, where possible, to he
 
 I used darkslategrey and whitesmoke colours for most of the text colour and saddlebrown for headings.
 
-### Typography
+#### Typography
 
 The two fonts used are from google fonts these are Roboto Slab for the headings and Montserrat for the body. 
 
-### Imagery
+#### Imagery
 
 I found some images from the internet and further information can be found in the credits section.
 
-# Features
+## Features
 
-## Existing Features
+### Existing Features
 
 * Responsive on mobile, tablet and laptop size devices.
 * Interactive elements:
@@ -149,37 +202,38 @@ I found some images from the internet and further information can be found in th
 
 * Contact/Booking Form - allows users to contact the school if they wish to book a service or ask for extra information. 
 
-## Features Left to Implement
+### Features Left to Implement
 
 * It would be nice to add a gallery of the horses at the school with a brief description of each.
 
-# Technologies Used
+## Technologies Used
 
-* HTML - used to creat the main content for the website.
+* HTML - used to create the main content for the website.
 
 * CSS - used to add style and colour to the content.
 
-* Bootstrap - grid layout was used to ensure the content was responsive to different device sizes (mobile, tablet and laptop).
+* [Bootstrap Version 4.1.3](https://getbootstrap.com/docs/4.1/getting-started/download/)
+  * Used grid layout to ensure the content was responsive to different device sizes (mobile, tablet and laptop).
+  * Used to that the navbar could collpase when viewed on small screens but expand on medium and larger size screens.
+  * Used to create the carousel of images on the home page.
 
-* Javascript - used bootstrap javascript to that the navbar could collpase when viewed on small screens but expand on medium and larger size screens.
+* [Gitpod](https://www.gitpod.io/) - used to write the code for the website.
 
-* Javascript - used bootstrap to create my carousel of images on the home page.
+* [Github](https://github.com/) - used to store the current and previous versions of the code. It was also used to host the live website through github pages. 
 
-* Gitpod - used to write the code for the website.
+* [Google Fonts](https://fonts.google.com/) - used to import the Roboto Slab and Montserrat font families that are used throught the website.
 
-* Github - used to store the current and previous versions of the code. It was also used to host the live website through github pages. 
+* [Font Awesome](https://fontawesome.com/) - used to display the social media icons in the footer of each page.
 
-* Google Fonts - used to import the Roboto Slab and Montserrat font families that are used throught the website.
+* [Balsamiq Wireframes](https://balsamiq.com/wireframes/) - used to create the wireframes for the website.
 
-* Font Awesome - used to display the social media icons in the footer of each page.
+* [Tinypng](https://tinypng.com/) - used to compress the images so they loaded quicker on the website.
 
-* Balsamiq wireframes - used to create the wireframes for the website.
+* [Am I Responsive](http://ami.responsivedesign.is/#) - used for the mockups of the website on different devices.
 
-* Used [tinypng](https://tinypng.com/) to compress the images so they loaded quicker on the website.
+## Testing
 
-# Testing
-
-## Headers and Footers
+### Headers and Footers
 
 * Checked the links in navigation bar and footer worked. 
 
@@ -191,14 +245,14 @@ I found some images from the internet and further information can be found in th
 
 * Checked the links in the footer change colour when you hover over them.
 
-## Index/Home Section
+### Home Section
 
 * Checked the carousel is responsive and changes image automatically.  
 I also checked the controls and indicators work as expected to allow the user to view a specific image. 
 
 * Checked the elements are reponsive to different size devices.
 
-## Prices Section
+### Prices Section
 
 * Checked the elements are reponsive to different size devices.
 
@@ -206,7 +260,7 @@ I also checked the controls and indicators work as expected to allow the user to
 
 * Checked the images look good when viewed on different screen sizes.
 
-## Contact Section
+### Contact Section
 
 * Checked the contact-img is responsive and changes in height on different devices.
 
@@ -227,7 +281,7 @@ and also enter some text in the enquiry textarea.
 
 * Checked the reset button changes colour and background colour when you hover over it.
 
-## Online validation
+### Online Validation
 
 * I checked the website loads and responds as expected on google chrome, microsoft edge and internet explorer browsers.  
 I specifically checked the navbar and carousel work as expected on these browsers also.
@@ -235,44 +289,48 @@ I specifically checked the navbar and carousel work as expected on these browser
 * Used chrome developer tools and [responsinator](https://www.responsinator.com/) to check responsiveness on mobile, tablet and laptop devices.  
 I also checked the website on my 15 inch laptop, 20 inch monitor and sony smartphone.
 
-* Used an [online validator](validator.w3.org) to validate my html and css code and to check for no errors or warnings. 
+* Used the [w3c validator](validator.w3.org) to validate my html and css code and to check for no errors or warnings. 
 
-* Used lighthouse in chrome developer tools to check the websites performance in terms of 
-(performance, accessibility, best practises and SEO) for both mobile and desktop devices.  
-For mobile this has: performance 73%, accessibility 97%, best practises 87% and SEO 100%.  
-For desktop this has: performance NA%, accessibility NA%, best practises NA% and SEO NA%.
+* Used [lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome developer tools to check the websites performance in terms of 
+performance, accessibility, best practises and SEO.
+This was done for all 3 pages of the website and for both mobile and desktop devices.
+  * Home Mobile: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)).
+  * Home Desktop: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)). 
+  * Prices Mobile: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)).
+  * Prices Desktop: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)).
+  * Contact Mobile: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)).
+  * Contact Desktop: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)).
 
-## Meets user/owner needs
+### Meets User Needs
 
 TO FILL IN SECTION.
 
-## Fixed bugs
+### Fixed Bugs
 
-### Major bugs
-
-#### Bug 1
+#### Navigation Bar Colours
 
 In the navigation bar the active page text was not showing as the correct colour (saddlebrown).
-I had to add the following code to resolve the problem, I did this using chrome developer tools to inspect the font colour of the problem text.
+I had to add the following code to resolve the problem, I did this using chrome developer tools to discover the css selector of the problem text.
 
-.navbar-light .navbar-nav .active>.nav-link {
+> .navbar-light .navbar-nav .active>.nav-link {  
     color: saddlebrown;
     font-family: 'Roboto Slab', serif;
     font-size: 1.8rem;
 }
 
-#### Bug 2
+#### Collapsible Hamburger Menu
 
 When the hamburger menu was opened on a small screen I wanted the naviagtional items to have smaller text and less padding.
 I also did not want the underline to be shown ont he active page in this circumstance.
 
-From looking in chrome developer tools I thought I could target 
-".navbar-light .show .navbar-nav .nav-link, .navbar-light .collapsing .navbar-nav .nav-link"
-as I noticed the change in the classes of the div element from collapse to collapsing to collapse show.  
+From looking in chrome developer tools I thought I could target the below css selectors as 
+I noticed the change in the classes of the div element from "collapse" to "collapsing" to "collapse show". 
+> .navbar-light .show .navbar-nav .nav-link, .navbar-light .collapsing .navbar-nav .nav-link  
+
 However the div has "collapse show" classes when viewed on a larger device and not just when the navbar becomes a hamburger menu.
 I targeted the above elements within a media query to solve this.
 
-#### Bug 3
+#### Carousel Images
 
 For the carousel the images I picked had different aspect ratios, 
 and this caused the overall height of the element to change every few seconds which was not pleasant to view 
@@ -280,7 +338,7 @@ as the below elements also changed position due to the carousel.
 
 I resolved this by making sure all the images had the same aspect ratio using cropping.
 
-#### Bug 4
+#### Form Fieldset
 
 I made the fieldset height to be 100% so that they looked better on larger screens when these are set side by side.  
 However this made the height of the parent element (div with class “col-12 col-lg-6” in my case) smaller than that of fieldset height, which was very unexpected.  
@@ -289,16 +347,29 @@ This also caused issues with the submit and reset button positioning and making 
 I tried experiementing with different height values for fieldset and its parent div which did not solve the 
 problem and then I googled and found this [stackoverflow post](https://stackoverflow.com/questions/9116689/fieldset-does-not-follow-its-parents-height
 ) and from the post some [runnable example that explains my problem clearly ](http://jsfiddle.net/3hfytpw4/).  
-If you click the second link and then run the example you can see that the parent with class “divContainer blahContainer” 
+
+
+Running the example demontrates the problem clearly (images above) you can see that the parent 
 does not have the height which aligns with that of the fieldsets.
 
-I had to remove padding and margins (top/bottom) of fieldset and add these instead to the parent/child elements 
-of fieldset.  
+![Fieldset problem result](assets/images/fieldset-problem.PNG)
+![Fieldset problem html](assets/images/fieldset-html.PNG)
+![Fieldset problem css](assets/images/fieldset-css.PNG)
+
+After some trial and error I found that commenting out the padding and margins in the css resulted in the below
+dewsired result:
+![Fieldset problem css](assets/images/fieldset-fix.PNG)
+
+I removed the top/bottom padding and margins of fieldset and add these instead to the parent/child elements 
+of fieldset. Note: the left/right padding and margins did not seem to cause any problems.
 Perhaps there is a more elegant solution to what I used but this worked fine for my needs, although a bit cumbersome.
 
-### Minor bugs/fixes
+#### Minor Fixes
 
 * For the carousel I added a 4th indicator by adding an extra list iten to the carousel-indicators ordered list.
+
+* In the prices section I had the images with a width of 100% as inline text, I discovered this error through the  [validator w3c](https://validator.w3.org/).
+I removed this from the html and instead targeted these elements in the css file.
 
 * For the text on the contact-img this was hard to pick a suitable colour for the text as the picutre
 has many colours.  
@@ -319,20 +390,20 @@ I added a width of auto to the element to solve the problem.
 however my label "What is your experience/ability?" was greater than 40% width on some screen sizes causing a truncation issue.  
 I changed the property to have a min-width of 40% instead which fixed the problem.
 
-# Deployment
+## Deployment
 
 TO FILL IN SECTION.
 
-# Credits
+## Credits
 
-## Code
+### Code
 
 * The bootstrap library was used to help make this website responsive for different devices. 
 
 * Bootstrap also allowed me to create an dropdown navigation bar for smaller devices and the carousel on the home page.  
 I could not have added these features without bootstrap as I currently do not have knowledge of Javascript.
 
-## Content
+### Content
 
 * I gained inspiration for the layout of the website by looking at other horse riding websites 
 including [Hall Place Equestrian Centre](https://hall-place.com/) and [Palmers Riding Stables](http://palmers-stables.com/). 
@@ -342,7 +413,7 @@ about us and facilites sections on my home page.
 
 * I had a look at the google reviews for the above riding schools to get an idea of what reviews to make for my fictional school.
 
-## Media
+### Media
 
 * Carousel-img4 is an image I own.
 
@@ -353,7 +424,6 @@ about us and facilites sections on my home page.
   * contact-img - owner Eberhard Grossgasteiger
   * contact-form - owner Mali Maeder
 
-
 * I found the following images online from [unsplash](https://unsplash.com/): 
   * carousel-img2 - owner Elisa Pitkänen 
   * special-offers - owner Raphael Wicker
@@ -363,7 +433,10 @@ about us and facilites sections on my home page.
 
 * Please note I did minor editing (cropping only) to some of these photos.
 
-## Acknowledgments
+The images in relation to the fieldset bug (fieldset-problem, fieldset-html, fieldset-css, fieldset-fix) are from this [runnable example](http://jsfiddle.net/3hfytpw4/)
+from this [stackoverflow post](https://stackoverflow.com/questions/9116689/fieldset-does-not-follow-its-parents-height).
+ 
+### Acknowledgments
 
 * Code Institue for teaching me the basics of HTML, CSS and bootstrap to allow me to create this website.
 
