@@ -29,6 +29,12 @@ body {
     color: darkslategrey;
 }
 
+/* navbar */
+
+.navbar {
+    background-color: palegoldenrod;
+    border-bottom: 0.5rem solid saddlebrown;
+}
 
 .navbar-light .navbar-brand, 
 .navbar-light .navbar-nav .nav-link {
@@ -43,15 +49,12 @@ body {
     font-size: 1.8rem;
 }
 
-/* navbar */
-
-.navbar {
-    background-color: palegoldenrod;
-    border-bottom: 0.5rem solid saddlebrown;
-}
-
 .navbar-expand-md .navbar-nav .nav-link {
     padding: 1rem;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    text-decoration: dashed underline saddlebrown;
 }
 
 .navbar-light .navbar-brand:hover, 
@@ -63,19 +66,6 @@ body {
 .navbar-light .navbar-nav .active>.nav-link:hover {
     color: #0c0cff;
     font-weight: bold;
-}
-
-.navbar-light .navbar-nav .active>.nav-link {
-    text-decoration: dashed underline saddlebrown;
-}
-
-/* when navar is opened on smaller screens 
-- remove (on active page) underline and update font size and padding */
-@media screen and (max-width: 768px)  {
-    .navbar-light .show .navbar-nav .nav-link, .navbar-light .collapsing .navbar-nav .nav-link {
-    font-size: 1.6rem;
-    padding: 0.2rem;
-    text-decoration: none;}
 }
 
 /* footer */
@@ -115,56 +105,11 @@ footer {
     border: 1px solid saddlebrown;
 }
 
-@media screen and (min-width: 768px) {
-    .carousel {
-        width: 80%;
-        margin: 2rem 10% 1rem 10%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .carousel {
-        width: 70%;
-        margin: 2rem 15% 1rem 15%;
-     }
-}
-
-@media screen and (min-width: 1200px) {
-    .carousel {
-        width: 60%;
-        margin: 2rem 20% 1rem 20%;
-     }
-}
-
 /* index.html */
 
 .home {
     width: 90%;
     margin: 1rem 5% 1rem 5%;
-}
-
-@media screen and (min-width: 768px) {
-    .home {
-        width: 80%;
-        margin: 1rem 10% 1rem 10%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .home {
-        width: 70%;
-        margin: 1rem 15% 1rem 15%;
-     }
-}
-
-@media screen and (min-width: 1200px) {
-    .home {
-        width: 60%;
-        margin: 1rem 20% 1rem 20%;
-     }
-}
-
-.home {
     padding: 0;
 }
 
@@ -182,11 +127,6 @@ footer {
     background-color: palegoldenrod; 
     border: 1px solid saddlebrown; 
     height: 100%;
-}
-
-@media screen and (min-width: 768px) {
-    .facilities {
-    margin-right: 1rem;}
 }
 
 .introduction>h2 {
@@ -215,27 +155,6 @@ footer {
     margin: 2rem 5% 1rem 5%;
 }
 
-@media screen and (min-width: 768px) {
-    .prices {
-        width: 80%;
-        margin: 2rem 10% 1rem 10%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-     .prices {
-        width: 70%;
-        margin: 2rem 15% 1rem 15%;
-     }
-}
-
-@media screen and (min-width: 1200px) {
-     .prices {
-        width: 60%;
-        margin: 2rem 20% 1rem 20%;
-     }
-}
-
 .prices-lessons, .prices-hacks, .prices-special-offers {
     background-color: palegoldenrod;
     border: 1px solid saddlebrown;
@@ -258,14 +177,6 @@ footer {
 .prices .prices-picture {
     margin-bottom: 20px;
     width: 100%;
-}
-
-@media screen and (min-width: 768px) {
-    .prices .prices-picture {
-        margin-bottom: 0;
-        margin-right: 5%;
-        width: 95%;
-    }
 }
 
 .prices table {
@@ -291,13 +202,12 @@ footer {
 .prices table td {
     padding: .25rem;
     vertical-align: top;
+    border-top: 1px dashed DarkSlateGrey;
+    border-top: 1px dashed DarkSlateGrey;
     border-left: 1px solid DarkSlateGrey;
     border-right: 1px solid DarkSlateGrey;
-    border-top: 1px dashed DarkSlateGrey;
-    border-top: 1px dashed DarkSlateGrey;
     color: DarkSlateGrey;
 }
-
 
 /* contact image */
 
@@ -312,50 +222,20 @@ footer {
     background-position: bottom center;
     background-size: cover;
     background-attachment: scroll;
-    
     position: relative;
-
-}
-
-@media screen and (min-width: 768px) {
-    .contact-img {
-        width: 80%;
-        margin: 2rem 10% 1rem 10%;
-        height: 450px;
-        background-position: 0% 80%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .contact-img {
-        width: 70%;
-        margin: 2rem 15% 1rem 15%;
-        height: 550px;
-     }
-}
-
-@media screen and (min-width: 1200px) {
-    .contact-img {
-        width: 60%;
-        margin: 2rem 20% 1rem 20%;
-        height: 750px;
-        background-position: 0% 60%;
-     }
 }
 
 .contact-img .contact-text {
-    max-width: 90%;
+    margin-left: 5%;
+    width: 90%;
     position: absolute;
-    top: 5%;
-    left: 5%;
     height: 100%;
 }
 
 .contact-img #contact-heading {
     background-color: rgba(1,1,1,0.6);
-    /* position: absolute;
-    top: 5%;
-    left: 5%; */
+    position: relative;
+    margin-top: 5%;
     padding: 1rem;    
 }
 
@@ -371,18 +251,18 @@ footer {
     color: whitesmoke;
 }
 
-.contact-img #contact-table h3 {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: whitesmoke;
-}
-
 .contact-img #contact-table {
     background-color: rgba(1,1,1,0.2);
     padding: 1rem;   
     position: absolute;
-    bottom: 10%;
+    bottom: 2%;
     width: 100%; 
+}
+
+.contact-img #contact-table h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: whitesmoke;
 }
 
 .contact-img #contact-table table {
@@ -390,10 +270,6 @@ footer {
     color: whitesmoke;
     border: 1px solid whitesmoke;
     margin-bottom: 0;
-}
-
-.contact-img #contact-table table {
-    background-color: transparent;
 }
 
 .contact-img #contact-table table th {
@@ -418,22 +294,14 @@ footer {
     font-size: 0.8rem;
 }
 
-@media screen and (min-width: 768px) {
-
-    .contact-img #contact-table table td {
-    font-size: 1rem;}
-
-}
-
 .contact-img #contact-table table .day {
     text-align: left;
     padding-left: 0.5rem;
 }
 
-.contact-img #contact-table table .openclose {
+.contact-img #contact-table table .open-close {
     text-align: center;
 }
-
 
 /* form */
 
@@ -448,7 +316,6 @@ form {
     background-size: cover;
     background-attachment: scroll;
     position: relative;
-    
 }
 
 form .overlay {
@@ -456,28 +323,6 @@ form .overlay {
     position: absolute;
     width: 100%;
     height: 100%;
-}
-
-@media screen and (min-width: 768px) {
-    form {
-        background-position: center center;
-        width: 80%;
-        margin: 2rem 10% 1rem 10%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    form {
-        width: 70%;
-        margin: 2rem 15% 1rem 15%;
-     }
-}
-
-@media screen and (min-width: 1200px) {
-    form {
-        width: 60%;
-        margin: 2rem 20% 1rem 20%;
-     }
 }
 
 form .col-12, form .col-md-6, form .col-3 {
@@ -503,25 +348,6 @@ form fieldset {
     margin: 0 1rem;
     border: 2px dashed whitesmoke;
     padding: 0 1rem;
-}
-
-@media screen and (min-width: 768px)  {
-    form fieldset {
-    margin: 0 2rem;} 
-}
-
-@media screen and (min-width: 992px)  {
-
-    form .details {
-    margin-bottom: 0;}
-
-    form .details fieldset {
-        margin: 0 0.5rem 0 2rem;
-    }
-
-    form .enquiry fieldset {
-        margin: 0 2rem 0 0.5rem;
-    }
 }
 
 form fieldset legend {
@@ -580,17 +406,6 @@ form #submit {
     margin-right: 10%;
 }
 
-@media screen and (min-width: 992px)  {
-
-    form .submit-reset {
-    text-align: left;
-    margin: 2rem;}
-
-    form #submit {
-    margin-right: 20px;}
-
-}
-
 form input[type="submit"] {
     padding: 0.5rem;
     background-color: palegoldenrod;
@@ -608,16 +423,184 @@ form input[type="submit"]:hover {
 
 form button {
     padding: 0.5rem;
-    background-color: #0c0cff;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: #0c0cff;
     font-size: 1.2rem;
-    border: 2px solid whitesmoke;
+    border: 2px solid #0c0cff;
     position: relative;
 }
 
 form button:hover {
-    background-color: whitesmoke;
-    color: #0c0cff;
-    border: 2px solid #0c0cff;
+    background-color: #0c0cff;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+
+/* Media queries */
+
+/* Screen less than 768px */
+@media screen and (max-width: 768px)  {
+    
+    /* when navar is opened on smaller screens - 
+    remove (on active page) underline and update font size and padding */
+    .navbar-light .show .navbar-nav .nav-link, .navbar-light .collapsing .navbar-nav .nav-link {
+        font-size: 1.6rem;
+        padding: 0.2rem;
+        text-decoration: none;
+    }
+
+}
+
+/* Screen more than 768px */
+@media screen and (min-width: 768px) {
+
+    .carousel {
+        width: 80%;
+        margin: 2rem 10% 1rem 10%;
+    }
+
+    .home {
+        width: 80%;
+        margin: 1rem 10% 1rem 10%;
+    }
+
+    .facilities {
+        margin-right: 0.5rem;
+    }
+
+    .reviews {
+        margin-left: 0.5rem;
+    }
+
+    .prices {
+        width: 80%;
+        margin: 2rem 10% 1rem 10%;
+    }
+
+    .prices .prices-picture {
+        margin-bottom: 0;
+        margin-right: 5%;
+        width: 95%;
+    }
+
+    .contact-img {
+        width: 80%;
+        margin: 2rem 10% 1rem 10%;
+        height: 450px;
+        background-position: 0% 80%;
+    }
+
+    .contact-img .contact-text {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .contact-img #contact-table table td {
+        font-size: 1rem;
+    }
+
+    form {
+        background-position: center center;
+        width: 80%;
+        margin: 2rem 10% 1rem 10%;
+    }
+
+    form fieldset {
+        margin: 0 2rem;
+    } 
+
+}
+
+/* Screen more than 992px */
+@media screen and (min-width: 992px) {
+
+    .carousel {
+        width: 70%;
+        margin: 2rem 15% 1rem 15%;
+    }
+
+     .home {
+        width: 70%;
+        margin: 1rem 15% 1rem 15%;
+    }
+
+    .prices {
+        width: 70%;
+        margin: 2rem 15% 1rem 15%;
+    }
+
+    .contact-img {
+        width: 70%;
+        margin: 2rem 15% 1rem 15%;
+        height: 550px;
+    }
+
+    .contact-img .contact-text {
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    form {
+        width: 70%;
+        margin: 2rem 15% 1rem 15%;
+    }
+
+    form .details {
+        margin-bottom: 0;
+    }
+
+    form .details fieldset {
+        margin: 0 0.5rem 0 2rem;
+    }
+
+    form .enquiry fieldset {
+        margin: 0 2rem 0 0.5rem;
+    }
+
+    form .submit-reset {
+        text-align: left;
+        margin: 2rem;
+    }
+
+    form #submit {
+        margin-right: 20px;
+    }
+
+}
+
+/* Screen more than 1200px */
+@media screen and (min-width: 1200px) {
+
+    .carousel {
+        width: 60%;
+        margin: 2rem 20% 1rem 20%;
+    }
+
+    .home {
+        width: 60%;
+        margin: 1rem 20% 1rem 20%;
+    }
+
+    .prices {
+        width: 60%;
+        margin: 2rem 20% 1rem 20%;
+    }
+
+    .contact-img {
+        width: 60%;
+        margin: 2rem 20% 1rem 20%;
+        background-position: 0% 60%;
+    }
+
+    .contact-img .contact-text {
+        margin-left: 20%;
+        width: 60%;
+    }
+
+    form {
+        width: 60%;
+        margin: 2rem 20% 1rem 20%;
+    }
+
 }
 

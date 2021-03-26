@@ -212,7 +212,9 @@ I also checked the controls and indicators work as expected to allow the user to
 
 * Checked the contact-img positioning is responsive when viewed on different devices.
 
-* Checked the form makes a user enter all text fields (name, email, phone number), tick one of the radio box options and also enter some text in the enquiry textarea.
+* Checked the form makes a user enter all text fields (name, email, phone number), 
+tick one of the radio box options, select an experience/ability level 
+and also enter some text in the enquiry textarea.
 
 * Checked the form only takes a email with a @ in the field.
 
@@ -344,11 +346,20 @@ about us and facilites sections on my home page.
 
 * Carousel-img4 is an image I own.
 
-* I found the following images online from [pexels](https://www.pexels.com/): contact-img, lessons, hacks, contact-form and carousel-img3.
+* I found the following images online from [pexels](https://www.pexels.com/): 
+  * carousel-img3 - owner Helena Lopes
+  * lessons - owner Tatiana Twinslol
+  * hacks - owner Helena Lopes
+  * contact-img - owner Eberhard Grossgasteiger
+  * contact-form - owner Mali Maeder
 
-* I found the following images online from [unsplash](https://unsplash.com/): special-offers and carousel-img2.
 
-* I found the following image from [stocksnap](https://stocksnap.io/): carousel-img1.
+* I found the following images online from [unsplash](https://unsplash.com/): 
+  * carousel-img2 - owner Elisa Pitkänen 
+  * special-offers - owner Raphael Wicker
+ 
+* I found the following image from [stocksnap](https://stocksnap.io/): .
+  * carousel-img1 - owner Matthias Zomer
 
 * Please note I did minor editing (cropping only) to some of these photos.
 

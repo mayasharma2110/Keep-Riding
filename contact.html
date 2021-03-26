@@ -29,6 +29,7 @@
 
 <body>
 
+    <!-- Boostrap -->
     <header>
         <nav class="navbar navbar-expand-md navbar-light">
             <a class="navbar-brand" href="index.html">Keep Riding</a>
@@ -65,48 +66,47 @@
                 <table class="table">
                     <tr>
                         <th scope="col" class="day">Day</th>
-                        <th scope="col" class="openclose">Open</th>
-                        <th scope="col" class="openclose">Close</th>
+                        <th scope="col" class="open-close">Open</th>
+                        <th scope="col" class="open-close">Close</th>
                     </tr>
                     <tr>
                         <td class="day">Monday</td>
-                        <td class="openclose">10:00</td>
-                        <td class="openclose">18:00</td>
+                        <td class="open-close">10:00</td>
+                        <td class="open-close">18:00</td>
                     </tr>
                     <tr>
                         <td class="day">Tuesday</td>
-                        <td class="openclose">10:00</td>
-                        <td class="openclose">18:00</td>
+                        <td class="open-close">10:00</td>
+                        <td class="open-close">18:00</td>
                     </tr>
                     <tr>
                         <td class="day">Wednesday</td>
-                        <td class="openclose">10:00</td>
-                        <td class="openclose">14:00</td>
+                        <td class="open-close">10:00</td>
+                        <td class="open-close">14:00</td>
                     </tr>
                     <tr>
                         <td class="day">Thursday</td>
-                        <td class="openclose">10:00</td>
-                        <td class="openclose">18:00</td>
+                        <td class="open-close">10:00</td>
+                        <td class="open-close">18:00</td>
                     </tr>
                     <tr>
                         <td class="day">Friday</td>
-                        <td class="openclose">10:00</td>
-                        <td class="openclose">18:00</td>
+                        <td class="open-close">10:00</td>
+                        <td class="open-close">18:00</td>
                     </tr>
                     <tr>
                         <td class="day">Saturday</td>
-                        <td class="openclose">09:00</td>
-                        <td class="openclose">17:00</td>
+                        <td class="open-close">09:00</td>
+                        <td class="open-close">17:00</td>
                     </tr>
                     <tr>
                         <td class="day">Sunday</td>
-                        <td class="openclose">09:00</td>
-                        <td class="openclose">14:00</td>
+                        <td class="open-close">09:00</td>
+                        <td class="open-close">14:00</td>
                     </tr>
                 </table>
             </div>
         </div>
-
     </div>
 
     <form action="https://formdump.codeinstitute.net" method="POST">
@@ -132,7 +132,8 @@
                         <br>
                         <label for="ability">What is your experience/ability? </label>
                         <select name="ability" id="ability" required>
-                            <option value="none">None</option>
+                            <option value="">None</option>
+                            <option value="never">Never ridden</option>
                             <option value="beginner">Beginner</option>
                             <option value="intermediate">Intermediate</option>
                             <option value="advanced">Advanced</option>
