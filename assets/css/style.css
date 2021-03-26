@@ -179,6 +179,10 @@ footer {
     width: 100%;
 }
 
+.prices img {
+    width: 100%;
+}
+
 .prices table {
     width: 100%;
     color: saddlebrown;
