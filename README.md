@@ -32,7 +32,7 @@
   * [Prices Section](#prices-section)
   * [Contact Section](#contact-section)
   * [Online Validation](#online-validation)
-  * [Meets User Needs](#meets-user-needs)
+  * [User Stories from the UX Section](#user-stories-from-the-ux-section)
   * [Fixed Bugs](#fixed-bugs)
     * [Navigation Bar Colours](#navigation-bar-colours)
     * [Collapsible Hamburger Menu](#collapsible-hamburger-menu)
@@ -251,7 +251,12 @@ I found some images from the internet and further information can be found in th
 
 ### Features Left to Implement
 
-* It would be nice to add a gallery of the horses at the school with a brief description of each.
+* It would be nice to add a gallery of the horses at the school with a brief description of each. 
+This would make the riding school and horses feel more personable to users.
+
+* It would be nice to have a carousel for the reviews of the riding school on the home page. 
+This would allow for many reviews to be displayed on the site without taking up too much space
+and further encourage users to book with the school.
 
 ## Technologies Used
 
@@ -336,21 +341,112 @@ I specifically checked the navbar and carousel work as expected on these browser
 * Used chrome developer tools and [responsinator](https://www.responsinator.com/) to check responsiveness on mobile, tablet and laptop devices.  
 I also checked the website on my 15 inch laptop, 20 inch monitor and sony smartphone.
 
-* Used the [w3c validator](validator.w3.org) to validate my html and css code and to check for no errors or warnings. 
+* Used the [w3c validator](validator.w3.org) to validate my html (for all 3 pages of the website) and css code and to check for no errors or warnings. 
 
 * Used [lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome developer tools to check the websites performance in terms of 
 performance, accessibility, best practises and SEO.
 This was done for all 3 pages of the website and for both mobile and desktop devices.
-  * Home Mobile: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)).
-  * Home Desktop: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)). 
-  * Prices Mobile: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)).
-  * Prices Desktop: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)).
-  * Contact Mobile: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)).
-  * Contact Desktop: Performance: , Accessibility: , Best Practises: , SEO: . Full report can be found [here]((assets/home-mobile.html)).
+  * Home Mobile:  
+    * Performance:  
+    * Accessibility:  
+    * Best Practises:  
+    * SEO: 
+  * Home Desktop:  
+    * Performance:  
+    * Accessibility:  
+    * Best Practises:  
+    * SEO: 
+  * Prices Mobile:  
+    * Performance:  
+    * Accessibility:  
+    * Best Practises:  
+    * SEO: 
+  * Prices Desktop:  
+    * Performance:  
+    * Accessibility:  
+    * Best Practises:  
+    * SEO: 
+  * Contact Mobile:  
+    * Performance:  
+    * Accessibility:  
+    * Best Practises:  
+    * SEO: 
+  * Contact Desktop:  
+    * Performance:  
+    * Accessibility:  
+    * Best Practises:  
+    * SEO: 
 
-### Meets User Needs
+### User Stories from the UX Section
 
-TO FILL IN SECTION.
+* First Time Visitor Goals  
+
+  * As a first time user, I want to understand the purpose of the website and learn about the riding school.
+    * When the user first enters the site they are greeted with a clear navigation bar when viewed on mobile or desktop devices showing the 
+    company name and the 3 pages the user can view. 
+    *  Below the navigation bar there is a carousel of images of horse riding and horses.
+    This clearly indicates the purpose of the website.
+    The carousel will go through the  picutres automatically or can use controls/indicators to pick an image to view.
+    * The colour scheme (yellow and brown) also matches the theme of horses 
+    and horse riding and makes it clear to the user the motivation of the website.
+    * From here the user can:  
+      * View the carousel images  
+      * Scroll down to learn more about the riding school, 
+    the "about us" section partially revealed on most devices, giving some content hinting and 
+    encouraging the user to scroll down.  
+      * Navigate to the prices or contact pages.
+
+  * As a first time user, I want to be able to navigate through the site easily.
+    * At the top of each of the 3 pages there is a clear navigation bar which fills the full width of the device screen.
+    * When viewed on larger screens the navigation bar has clear text including the company name and 3 links to the pages of the website.
+    * When viewed on a mobile device the navigation bar includes the company name and the links 
+    collapse into a hamburger icon (which can be opened and closed by the user).
+    The hamburger icon is used widely throughout many sites, so this is easy for the user to understand it's purpose.
+    * All 3 pages also have a similar general shape in terms of margins and padding which makes the user feel assured they are on the same site.
+
+  * As a first time user, I want to be able to view the website on a laptop, tablet or phone and I want the content to be displayed well on any device.
+    * The margins and padding respond to the width of the device throughout the site.
+    Less margins are given for smaller width devices and more for those with a larger width.
+    * All text is easily read when viewed on any device.  
+      * The font-size and padding of the links in the navigation bar are smaller when viewed on a mobile device.  
+      * The font-size of the opening hours table content is smaller when viewed on a mobile device.
+    * All images are clear when viewed on any device.  
+    Also the background image for the form has different positioning for different devices so the horse can always be seen.
+  
+  * As a first time user, I want to see what facilites are offered by the riding school.
+    * This is shown clearly in its own section on the home page.
+
+* Returning Visitor Goals
+
+  * As a returning user, I want to check the range of lessons that are offered and the prices. 
+    * The lessons type (group or private), duration and prices are displayed clearly in the prices page.
+    * There are also hacks offered by the school for a more relaxed and informal riding experience.
+    * Additionally, there is a special offers section for those dedicated riders to book a block of 5 lessons and save some money.
+
+  * As a returning user, I want to read reviews from current and previous customers about this school.
+    * This is shown clearly in its own section on the home page.
+
+  * As a returning user, I want to contact the school to book a lesson and/or ask for additional information.
+    * There is a clear contact page and contact form there the user can ask for more information or also enquire about a new or existing booking.
+    * There is also the opening times for the school on this page so the user can have an idea on when to expect a response back from the school.
+    * When the form is submitted successfully the user is taken to another page that confirms their message has been received.
+
+  * As a returning user, I want to find out where I can follow the riding school on social media platforms.
+    * Social media links are displayed in the footer of each page.
+    * The footer fills the full width of the device screen, is the same on all 3 pages and placed at the bottom of each page.
+    * The links open in a new tab so that the user can view these social media accounts
+    and follow/like the school, while remaining on the original website.
+    * The social media links allow the users following such accounts to keep up to date with the school.
+
+* Frequent User Goals
+
+  * As a frequent user, I want to check the lessons that are offered.
+    * A frequent user can check the lessons offered by viewing the prices page of the website 
+    and see the lessons offered.
+    
+  * As a frequent user, I want to check the cost of the lessons offered and see if there are any special offers.
+    * A frequent user can check the cost of lessons offered by viewing the prices page of the website 
+     and they can scroll to the bottom to see information of any special offers.
 
 ### Fixed Bugs
 
