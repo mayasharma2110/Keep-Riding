@@ -13,6 +13,10 @@
     * [User Goals](#user-goals)
   * [Scope](#scope)
   * [Structure](#structure)
+    * [Wireframes Home](#wireframes-home)
+    * [Wireframes Prices](#wireframes-prices)
+    * [Wireframes Contact](#wireframes-contact)
+    * [Wireframes Comments](#wireframes-comments)
   * [Skeleton](#skeleton)
     * [Colours](#colours)
     * [Typography](#typography)
@@ -154,15 +158,55 @@ The website will comtain a contact section which alows users to get in touch wit
 ### Skeleton
 
 I used Balsamiq to make the wireframes for this project. The website was designed to have 3 pages - home, prices and contact.
+The wireframes were created for all pages for phone, tablet and desktop devices.
 
-All 3 pages are designed to have similar general shape in terms of margins and padding.
-I also aimed for there to be some content hinting, where possible, to encourage the user to keep scrolling.
+#### Wireframes Home
 
-![Home Page Wireframes](assets/images/android-chrome-192x192.png)  
-![Prices Page Wireframes](assets/images/android-chrome-192x192.png)  
-![Contact Page Wireframes](assets/images/android-chrome-192x192.png)
+![Home Page Phone Wireframes](assets/wireframes/home-phone.PNG)  
+![Home Page Tablet Wireframes](assets/wireframes/home-tablet.PNG)  
+![Home Page Desktop Wireframes](assets/wireframes/home-desktop.PNG)  
 
-The full wireframes can be found [here](assets/Keep_Riding_Wireframes.bmpr).
+#### Wireframes Prices
+
+![Prices Page Phone Wireframes](assets/wireframes/prices-phone.PNG)  
+![Prices Page Tablet Wireframes](assets/wireframes/prices-tablet.PNG)  
+![Prices Page Desktop Wireframes](assets/wireframes/prices-desktop.PNG) 
+
+#### Wireframes Contact
+
+![Contact Page Phone Wireframes](assets/wireframes/contact-phone.PNG)  
+![Contact Page Tablet Wireframes](assets/wireframes/contact-tablet.PNG)  
+![Contact Page Desktop Wireframes](assets/wireframes/contact-desktop.PNG)  
+
+The full wireframes can be found [here](assets/wireframes/Keep_Riding_Wireframes.bmpr).
+
+#### Wireframes Comments
+
+Please not there are a few changes to the site since the wireframes were made:
+
+* Margins and padding were not included in the wireframes.
+
+* Home page: A carousel of images is displayed instead of a single image.
+This was added as it fufils the user need to view several pictures of horses, and removed the need for a separate gallery page.
+
+* Home page: The desktop wireframe has all 3 sections side by side. 
+Once the margins and specific text was added this view did not look ideal, 
+so it was kept the same as the tablet layout.
+
+* Prices page: I added a special offers section similar to that of lessons/hacks.
+This was added as it increases the chance of returning/frequent users booking a block of lessons instead of just one at a time.
+It also helps the user save some money and for the business it
+increases the chances of returning/frequent users continuing to use this school in the future.
+This is also a feature that most riding schools offer as the sport/hobby is costly for regular riders.
+
+* For the contact page a background image and some information on opening times was added.
+This was because once the form was added the page looked a bit bare when viewed on a desktop.
+It also provides the user with information on when the school is open, helping them decide if this school aligns well with their own schedule.
+
+* For the contact page a background image to the form was added. 
+This was added as the user wants to see picures of horses throughout the site where possible.
+
+
 ### Surface
 
 #### Colours
