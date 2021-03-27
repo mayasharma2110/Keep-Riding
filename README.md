@@ -55,7 +55,7 @@
 
 This is a website for a fictional horse riding school.  
 
-It is aimed for those who are interested in taking up horse riding or those with previous experience who wish to improve thier skills.
+It is aimed for those who are interested in taking up horse riding or those with previous experience who wish to improve their skills.
 The riding school is for those of any age, gender or ability. 
 
 ![Home Page Mockups](assets/images/mockup-home.PNG)
@@ -76,7 +76,7 @@ The riding school is for those of any age, gender or ability.
 
 * As a first time user, I want to be able to view the website on a laptop, tablet or phone and I want the content to be displayed well on any device.
 
-* As a first time user, I want to see what facilites are offered by the riding school.
+* As a first time user, I want to see what facilities are offered by the riding school.
 
 #### Returning Visitor Goals
 
@@ -100,13 +100,13 @@ The riding school is for those of any age, gender or ability.
 
 * Increase interaction with potential new customers.
 
-* Increase presence and following on social media platforms including facebook and instagram.
+* Increase presence and following on social media platforms including Facebook and Instagram.
 
 * Increase the number of lessons/hacks booked.
 
 #### User Goals
 
-* To see what the school offers in terms of facilites, lessons and prices.
+* To see what the school offers in terms of facilities, lessons and prices.
 
 * To be able to contact the school to ask for more information or book.
 
@@ -114,7 +114,7 @@ The riding school is for those of any age, gender or ability.
 
 * For the school to offer private and small groups lessons, so they can improve quicker.
 
-* For the school to have an indoor and outdoor areana(s), so that you can ride in any weather conditions.
+* For the school to have an indoor and outdoor arena(s), so that you can ride in any weather conditions.
 
 * For the school to offer hacks for a more relaxed riding experience.
 
@@ -126,7 +126,7 @@ Key features to be included based on user stories are:
 
 * Interactive elements: 
   * Navbar becomes a burger menu on mobile, also hovering over elements (in navigation bar and footer) gives a colour change.
-  * On the home page there is a carousel where users can scroll through some picutres.
+  * On the home page there is a carousel where users can scroll through some pictures.
 
 * About Us - allows users to find out who we are and what we do by having them read a short paragraph.
 
@@ -142,9 +142,9 @@ Key features to be included based on user stories are:
 
 ### Structure
 
-All pages of the webiste will have a consistent navigaton bar - which collapses when viewed on a small screen.
+All pages of the website will have a consistent navigation bar - which collapses when viewed on a small screen.
 
-All pages of the webiste will have a footer with links to the social media accounts that users can view and follow to keep up to date with the company.
+All pages of the website will have a footer with links to the social media accounts that users can view and follow to keep up to date with the company.
 
 The website will use bootstrap grids to make the layout responsive to different devices and screen sizes.
 
@@ -154,9 +154,9 @@ The home page will contain a facilities section explaining what the riding schoo
 
 The home page will contain a reviews section showing how other customers have enjoyed their time at the riding school.
 
-The website will comtain a prices section which shows the lessons offered and their prices, including any special offers.
+The website will contain a prices section which shows the lessons offered and their prices, including any special offers.
 
-The website will comtain a contact section which alows users to get in touch with the school to request more information or book a lesson.
+The website will contain a contact section which allows users to get in touch with the school to request more information or book a lesson.
 
 ### Skeleton
 
@@ -190,13 +190,13 @@ Please not there are a few changes to the final site since the wireframes were m
 * Margins and padding were not included in the wireframes.
 
 * Home page: A carousel of images is displayed instead of a single image.
-This was added as it fufils the user need to view several pictures of horses, and removed the need for a separate gallery page.
+This was added as it fulfils the user need to view several pictures of horses and removed the need for a separate gallery page.
 
 * Home page: The desktop wireframe has all 3 sections side by side. 
-Once the margins and specific text was added this view did not look ideal, 
-so it was kept the same as the tablet layout.
+Once the margins and specific text was added this view did not look ideal 
+so, it was kept the same as the tablet layout.
 
-* Prices page: I added a special offers section similar to that of lessons/hacks.
+* Prices page: I added a special offers section like that of lessons/hacks.
 This was added as it increases the chance of returning/frequent users booking a block of lessons instead of just one at a time.
 It also helps the user save some money and for the business it
 increases the chances of returning/frequent users continuing to use this school in the future.
@@ -208,7 +208,7 @@ It also provides the user with information on when the school is open, helping t
 aligns well with their own schedule.
 
 * For the contact page a background image to the form was added. 
-This was added as the user wants to see picures of horses throughout the site where possible.
+This was added as the user wants to see pictures of horses throughout the site where possible.
 
 ### Surface
 
@@ -217,8 +217,8 @@ This was added as the user wants to see picures of horses throughout the site wh
 The two main colours used in the website are yellow (palegoldenrod) and brown (saddlebrown).
 I picked these colours because I wanted the colour theme to match that of horse riding (brown/beige).
 
-However, I did not want the website to feel dull or bland so I made some elements turn blue (#0c0cff) when the user hovers over them.  
-I also picked picutres with some brighter colours in them, where possible, to help make the website more pleasing to the eye.
+However, I did not want the website to feel dull or bland, so I made some elements turn blue (#0c0cff) when the user hovers over them.  
+I also picked pictures with some brighter colours in them, where possible, to help make the website more pleasing to the eye.
 
 I used darkslategrey and whitesmoke colours for most of the text colour and saddlebrown for headings.
 
@@ -266,14 +266,15 @@ and further encourage users to book with the school.
 
 * [Bootstrap Version 4.1.3](https://getbootstrap.com/docs/4.1/getting-started/download/)
   * Used grid layout to ensure the content was responsive to different device sizes (mobile, tablet and laptop).
-  * Used to that the navbar could collpase when viewed on small screens but expand on medium and larger size screens.
+  * Used to that the navbar could collapse when viewed on small screens but expand on medium and larger size screens.
   * Used to create the carousel of images on the home page.
 
 * [Gitpod](https://www.gitpod.io/) - used to write the code for the website.
 
-* [Github](https://github.com/) - used to store the current and previous versions of the code. It was also used to host the live website through github pages. 
+* [GitHub](https://github.com/) - used to store the current and previous versions of the code. It was also used to host the live website through GitHub Pages. 
 
-* [Google Fonts](https://fonts.google.com/) - used to import the Roboto Slab and Montserrat font families that are used throught the website.
+* [Google Fonts](https://fonts.google.com/) - used to import the Roboto Slab and Montserrat font families that 
+are used throughout the website.
 
 * [Font Awesome](https://fontawesome.com/) - used to display the social media icons in the footer of each page.
 
@@ -302,11 +303,11 @@ and further encourage users to book with the school.
 * Checked the carousel is responsive and changes image automatically.  
 I also checked the controls and indicators work as expected to allow the user to view a specific image. 
 
-* Checked the elements are reponsive to different size devices.
+* Checked the elements are responsive to different size devices.
 
 ### Prices Section
 
-* Checked the elements are reponsive to different size devices.
+* Checked the elements are responsive to different size devices.
 
 * Checked there was a bottom margin between picture and tables when viewed on small device and right margin when viewed on medium and larger devices due to the change in layout.
 
@@ -320,9 +321,9 @@ I also checked the controls and indicators work as expected to allow the user to
 
 * Checked the form makes a user enter all text fields (name, email, phone number), 
 tick one of the radio box options, select an experience/ability level 
-and also enter some text in the enquiry textarea.
+and enter some text in the enquiry textarea.
 
-* Checked the form only takes a email with a @ in the field.
+* Checked the form only takes an email with a @ in the field.
 
 * Checked the form is responsive to different size devices. 
   * The label, input and textarea widths change based on the device the website is viewed on.
@@ -335,11 +336,11 @@ and also enter some text in the enquiry textarea.
 
 ### Online Validation
 
-* I checked the website loads and responds as expected on google chrome, microsoft edge and internet explorer browsers.  
+* I checked the website loads and responds as expected on Google Chrome, Microsoft Edge and Internet Explorer browsers.  
 I specifically checked the navbar and carousel work as expected on these browsers also.
 
 * Used chrome developer tools and [responsinator](https://www.responsinator.com/) to check responsiveness on mobile, tablet and laptop devices.  
-I also checked the website on my 15 inch laptop, 20 inch monitor and sony smartphone.
+I also checked the website on my HP 15 inch laptop, Philips 20 inch monitor and Sony smartphone.
 
 * Used the [w3c validator](https://validator.w3.org/) to validate my html (for all 3 pages of the website) to check for no errors or warnings. 
 * Used the [jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my style.css file to check for no errors or warnings. 
@@ -371,11 +372,11 @@ Full reports can be found below:
 * First Time Visitor Goals  
 
   * As a first time user, I want to understand the purpose of the website and learn about the riding school.
-    * When the user first enters the site they are greeted with a clear navigation bar when viewed on mobile or desktop devices showing the 
+    * When the user first enters the site, they are greeted with a clear navigation bar when viewed on mobile or desktop devices showing the 
     company name and the 3 pages the user can view. 
     *  Below the navigation bar there is a carousel of images of horse riding and horses.
     This clearly indicates the purpose of the website.
-    The carousel will go through the  picutres automatically or can use controls/indicators to pick an image to view.
+    The carousel will go through the pictures automatically or can use controls/indicators to pick an image to view.
     * The colour scheme (yellow and brown) also matches the theme of horses 
     and horse riding and makes it clear to the user the motivation of the website.
     * From here the user can:  
@@ -390,7 +391,7 @@ Full reports can be found below:
     * When viewed on larger screens the navigation bar has clear text including the company name and 3 links to the pages of the website.
     * When viewed on a mobile device the navigation bar includes the company name and the links 
     collapse into a hamburger icon (which can be opened and closed by the user).
-    The hamburger icon is used widely throughout many sites, so this is easy for the user to understand it's purpose.
+    The hamburger icon is used widely throughout many sites, so this is easy for the user to understand its purpose.
     * All 3 pages also have a similar general shape in terms of margins and padding which makes the user feel assured they are on the same site.
 
   * As a first time user, I want to be able to view the website on a laptop, tablet or phone and I want the content to be displayed well on any device.
@@ -400,9 +401,9 @@ Full reports can be found below:
       * The font-size and padding of the links in the navigation bar are smaller when viewed on a mobile device.  
       * The font-size of the opening hours table content is smaller when viewed on a mobile device.
     * All images are clear when viewed on any device.  
-    Also the background image for the form has different positioning for different devices so the horse can always be seen.
+    Also, the background image for the form has different positioning for different devices so the horse can always be seen.
   
-  * As a first time user, I want to see what facilites are offered by the riding school.
+  * As a first time user, I want to see what facilities are offered by the riding school.
     * This is shown clearly in its own section on the home page.
 
 * Returning Visitor Goals
@@ -417,7 +418,7 @@ Full reports can be found below:
 
   * As a returning user, I want to contact the school to book a lesson and/or ask for additional information.
     * There is a clear contact page and contact form there the user can ask for more information or also enquire about a new or existing booking.
-    * There is also the opening times for the school on this page so the user can have an idea on when to expect a response back from the school.
+    * There are also the opening times for the school on this page so the user can have an idea on when to expect a response back from the school.
     * When the form is submitted successfully the user is taken to another page that confirms their message has been received.
 
   * As a returning user, I want to find out where I can follow the riding school on social media platforms.
@@ -448,18 +449,18 @@ I discovered the problem using chrome developer tools to find the css selector o
 
 #### Collapsible Hamburger Menu
 
-When the hamburger menu was opened on a small screen I wanted the naviagtional items to have smaller text and less padding.
+When the hamburger menu was opened on a small screen I wanted the navigational items to have smaller text and less padding.
 I also did not want the underline to be shown on the active page in this circumstance.
 
 From looking in chrome developer tools I noticed the change in the classes of the div element (highlighted below) 
 from "collapse" to "collapsing" to "collapse show".
 ![Hamburger problem](assets/images/hamburger-menu.PNG)
 
-Therefore I thought I could target the below css selectors. 
+Therefore, I thought I could target the below css selectors. 
 
 > .navbar-light .show .navbar-nav .nav-link, .navbar-light .collapsing .navbar-nav .nav-link  
 
-However the div has "collapse show" classes when viewed on a larger device and not just when the navbar becomes a hamburger menu.
+However, the div has "collapse show" classes when viewed on a larger device and not just when the navbar becomes a hamburger menu.
 I targeted the above elements within a media query to solve this.
 
 #### Carousel Images
@@ -474,23 +475,23 @@ I resolved this by making sure all the images had the same aspect ratio using cr
 
 I made the fieldset height to be 100% so that they looked better on larger screens when these are set side by side.  
 
-However this made the height of the parent element (div with class “col-12 col-lg-6” in my case) smaller 
+However, this made the height of the parent element (div with class “col-12 col-lg-6” in my case) smaller 
 than that of fieldset height, which was unexpected.  This also caused issues with the submit and reset button 
 positioning and making them inside the fieldset in some situations.
 
-I tried experiementing with different height values for fieldset and its parent div which did not solve the 
-problem and then I googled and found this [stackoverflow post](https://stackoverflow.com/questions/9116689/fieldset-does-not-follow-its-parents-height
+I tried experimenting with different height values for fieldset and its parent div which did not solve the 
+problem and then I googled and found this [stack overflow post](https://stackoverflow.com/questions/9116689/fieldset-does-not-follow-its-parents-height
 ) and from the post some [runnable example that explains my problem clearly ](http://jsfiddle.net/3hfytpw4/).  
 
 
-Running the example demontrates the problem clearly (images below) you can see that the parent 
+Running the example demonstrates the problem clearly (images below) you can see that the parent 
 does not have the height which aligns with that of the fieldsets.
 
 ![Fieldset problem result](assets/images/fieldset-problem.PNG)
 ![Fieldset problem html](assets/images/fieldset-html.PNG)
 ![Fieldset problem css](assets/images/fieldset-css.PNG)
 
-After some trial and error I found that commenting out the padding and margins in the css resulted in the below
+After some trial and error, I found that commenting out the padding and margins in the css resulted in the below
 desired result:
 ![Fieldset problem css](assets/images/fieldset-fix.PNG)
 
@@ -499,18 +500,18 @@ of fieldset. Note: The left/right padding and margins did not seem to cause any 
 
 #### Minor Fixes
 
-* For the carousel I added a 4th indicator by adding an extra list iten to the carousel-indicators ordered list.
+* For the carousel I added a 4th indicator by adding an extra list item to the carousel-indicators ordered list.
 
 * In the prices section I had the images with a width of 100% as inline text, I discovered this error through the  [validator w3c](https://validator.w3.org/).
 I removed this from the html and instead targeted these elements in the css file.
 
-* For the text on the contact-img this was hard to pick a suitable colour for the text as the picutre
+* For the text on the contact-img this was hard to pick a suitable colour for the text as the picture
 has many colours.  
-I added an black transparent overlay so that the white text could be seen easier.
+I added a black transparent overlay so that the white text could be seen easier.
 
-* For the contact form I added a black transparent overlay similar to above so the white test was easier to read 
+* For the contact form I added a black transparent overlay similar to above, so the white test was easier to read 
 where the image had a lighter green colour.  
-However this made the heading, submit and reset buttons look faded out due to the overlay.  
+However, this made the heading, submit and reset buttons look faded out due to the overlay.  
 I added the position relative to these elements to solve the issue.
 
 * In the form I wanted the fieldset dotted line to go around the whole element.  
@@ -527,32 +528,32 @@ I changed the property to have a min-width of 40% instead which fixed the proble
 
 ### Creation
 
-* All code was written in Gitpod and used [this template](https://github.com/Code-Institute-Org/gitpod-full-template) from Code Insitiute.
+* All code was written in Gitpod and used [this template](https://github.com/Code-Institute-Org/gitpod-full-template) from Code Institute.
 * Files were added to the staging area using "git add ."
-* Files were commited to the local repository using "git commit -m 'commit message here'"
-* Commited changes were pushed to the Github repository.
+* Files were committed to the local repository using "git commit -m 'commit message here'"
+* Committed changes were pushed to the GitHub repository.
 
 ### GitHub Pages
 
 To deploy the project to a live website the below steps were followed:
 
-* Navigate to the Github repository you wish to deploy.
-* Click on Settings and scroll to the "Github Pages" section.
+* Navigate to the GitHub repository you wish to deploy.
+* Click on Settings and scroll to the "GitHub Pages" section.
 * Choose "master branch" as the source and click save.
-* Scroll back down to the "Github Pages" section and the deployed website link will be given.
+* Scroll back down to the "GitHub Pages" section and the deployed website link will be given.
 * Note: It can take a few moments for the website to be deployed, so the link may not work immediately 
-after you deploy using Github Pages.
+after you deploy using GitHub Pages.
 
 ### Local Clone
-To make a local copy of a repository on your own Github account you can clone it.
+To make a local copy of a repository on your own GitHub account you can clone it.
 This allows others to view the original code and/or make changes to it (on their own local copy).
 Changing the code on your local repository will not affect the original code or deployed website.
 
-To clone a repository in Github you can follow the steps below:
-* Log into Github and locate the repository you wish to clone.
-* Click on the code button (to the left of the green gitpod button) and copy the https URL given.
+To clone a repository in GitHub you can follow the steps below:
+* Log into GitHub and locate the repository you wish to clone.
+* Click on the code button (to the left of the green Gitpod button) and copy the https URL given.
 * Open Gitpod (or another editor if you prefer).
-* Use the "git clone 'insert copied url here'" command.
+* Use the "git clone 'insert copied URL here'" command.
 * A clone of the original repository will now be available for you locally 
 on your own repository to view/edit as you wish.
 
@@ -562,16 +563,16 @@ on your own repository to view/edit as you wish.
 
 * The bootstrap library was used to help make this website responsive for different devices. 
 
-* Bootstrap also allowed me to create an dropdown navigation bar for smaller devices and the carousel on the home page.  
-I could not have added these features without bootstrap as I currently do not have knowledge of Javascript.
+* Bootstrap also allowed me to create a dropdown navigation bar for smaller devices and the carousel on the home page.  
+I could not have added these features without bootstrap as I currently do not have knowledge of JavaScript.
 
 ### Content
 
 * I gained inspiration for the layout of the website by looking at other horse riding websites 
 including [Hall Place Equestrian Centre](https://hall-place.com/) and [Palmers Riding Stables](http://palmers-stables.com/). 
 
-* The above websites were also helped me with what content to put in the 
-about us and facilites sections on my home page.
+* The above websites also helped me with what content to put in the 
+about us and facilities sections on my home page.
 
 * I had a look at the google reviews for the above riding schools to get an idea of what reviews to make for my fictional school.
 
@@ -596,16 +597,16 @@ about us and facilites sections on my home page.
 * Please note I did minor editing (cropping only) to some of these photos.
 
 The images in relation to the fieldset bug (fieldset-problem, fieldset-html, fieldset-css, fieldset-fix) are from this [runnable example](http://jsfiddle.net/3hfytpw4/)
-from this [stackoverflow post](https://stackoverflow.com/questions/9116689/fieldset-does-not-follow-its-parents-height).
+from this [stack overflow post](https://stackoverflow.com/questions/9116689/fieldset-does-not-follow-its-parents-height).
  
 ### Acknowledgments
 
-* Code Institue for teaching me the basics of HTML, CSS and bootstrap to allow me to create this website.
+* Code Institute for teaching me the basics of HTML, CSS and bootstrap to allow me to create this website.
 
 * My mentor who helped provide feedback on this website and improvements that could be made.
 
-* The Slack community for providing support throughtout the course so far.  
-Also specifically to members who gave feedback on the website and any improvements/changes that could be made. 
+* The Slack community for providing support throughout the course so far.  
+Also, specifically to members who gave feedback on the website and any improvements/changes that could be made. 
 
 * The websites that I used to gain inspiration for creating my own horse riding school website 
 ([Hall Place Equestrian Centre](https://hall-place.com/) and [Palmers Riding Stables](http://palmers-stables.com/)).
