@@ -341,7 +341,8 @@ I specifically checked the navbar and carousel work as expected on these browser
 * Used chrome developer tools and [responsinator](https://www.responsinator.com/) to check responsiveness on mobile, tablet and laptop devices.  
 I also checked the website on my 15 inch laptop, 20 inch monitor and sony smartphone.
 
-* Used the [w3c validator](validator.w3.org) to validate my html (for all 3 pages of the website) and css code and to check for no errors or warnings. 
+* Used the [w3c validator](https://validator.w3.org/) to validate my html (for all 3 pages of the website) to check for no errors or warnings. 
+* Used the [jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my style.css file to check for no errors or warnings. 
 
 * Used [lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome developer tools to check the websites performance in terms of 
 performance, accessibility, best practises and SEO.
