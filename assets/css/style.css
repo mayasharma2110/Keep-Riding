@@ -114,7 +114,7 @@ footer {
     border: 1px solid saddlebrown;
 }
 
-/* index.html */
+/* home */
 
 .home {
     width: 90%;
@@ -164,7 +164,7 @@ footer {
     margin: 2rem 5% 1rem 5%;
 }
 
-.prices-lessons, .prices-hacks, .prices-special-offers {
+.prices-outer {
     background-color: palegoldenrod;
     border: 1px solid saddlebrown;
     margin-bottom: 2rem;
@@ -179,7 +179,7 @@ footer {
     padding-top: 1rem;
 }
 
-.lessons, .hacks, .special-offers {
+.prices-inner {
     margin: 2rem 5% 1rem 5%;
 }
 
@@ -196,9 +196,6 @@ footer {
     width: 100%;
     color: saddlebrown;
     border: 1px solid darkslategrey;
-}
-
-.prices table {
     background-color: lightblue;
 }
 
