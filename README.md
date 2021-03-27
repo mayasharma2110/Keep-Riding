@@ -347,36 +347,24 @@ I also checked the website on my 15 inch laptop, 20 inch monitor and sony smartp
 * Used [lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome developer tools to check the websites performance in terms of 
 performance, accessibility, best practises and SEO.
 This was done for all 3 pages of the website and for both mobile and desktop devices.
-  * Home Mobile:  
-    * Performance:  
-    * Accessibility:  
-    * Best Practises:  
-    * SEO: 
-  * Home Desktop:  
-    * Performance:  
-    * Accessibility:  
-    * Best Practises:  
-    * SEO: 
-  * Prices Mobile:  
-    * Performance:  
-    * Accessibility:  
-    * Best Practises:  
-    * SEO: 
-  * Prices Desktop:  
-    * Performance:  
-    * Accessibility:  
-    * Best Practises:  
-    * SEO: 
-  * Contact Mobile:  
-    * Performance:  
-    * Accessibility:  
-    * Best Practises:  
-    * SEO: 
-  * Contact Desktop:  
-    * Performance:  
-    * Accessibility:  
-    * Best Practises:  
-    * SEO: 
+The summary table below shows these metrics.
+
+| Device | Page |  Performance | Accessibility  | Best Practises  | SEO |
+|---|---|---|---|---|---|
+| Mobile  |  Home | 89% | 100% | 93% | 100% |
+| Mobile  |  Prices | 96% | 100% | 93% | 100% |
+| Mobile  |  Contact | 73% | 100% | 93% | 100% |
+| Desktop  | Home | 95% | 100% | 93% | 100% |
+| Desktop  | Prices | 98% | 100% | 93% | 100% |
+| Desktop  | Contact | 94% | 100% | 93% | 100% |
+
+Full reports can be found below:
+* [Mobile Home](assets/lighthouse/lighthouse-mobile-home.pdf)
+* [Mobile Prices](assets/lighthouse/lighthouse-mobile-prices.pdf)
+* [Mobile Contact](assets/lighthouse/lighthouse-mobile-contact.pdf)
+* [Desktop Home](assets/lighthouse/lighthouse-desktop-home.pdf)
+* [Desktop Prices](assets/lighthouse/lighthouse-desktop-prices.pdf)
+* [Desktop Contact](assets/lighthouse/lighthouse-desktop-contact.pdf)
 
 ### User Stories from the UX Section
 
