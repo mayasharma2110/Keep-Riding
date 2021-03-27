@@ -40,6 +40,9 @@
     * [Form Fieldset](#form-fieldset)
     * [Minor Fixes](#minor-fixes)
 * [Deployment](#deployment)
+  * [Creation](#creation)
+  * [GitHub Pages](#github-pages)
+  * [Local Clone](#local-clone)
 * [Credits](#credits)
   * [Code](#code)
   * [Content](#content)
@@ -182,7 +185,7 @@ The full wireframes can be found [here](assets/wireframes/Keep_Riding_Wireframes
 
 #### Wireframes Comments
 
-Please not there are a few changes to the site since the wireframes were made:
+Please not there are a few changes to the final site since the wireframes were made:
 
 * Margins and padding were not included in the wireframes.
 
@@ -200,12 +203,12 @@ increases the chances of returning/frequent users continuing to use this school 
 This is also a feature that most riding schools offer as the sport/hobby is costly for regular riders.
 
 * For the contact page a background image and some information on opening times was added.
-This was because once the form was added the page looked a bit bare when viewed on a desktop.
-It also provides the user with information on when the school is open, helping them decide if this school aligns well with their own schedule.
+This was because once the form was created the page looked a bit bare when viewed on a desktop.
+It also provides the user with information on when the school is open, helping them decide if this school 
+aligns well with their own schedule.
 
 * For the contact page a background image to the form was added. 
 This was added as the user wants to see picures of horses throughout the site where possible.
-
 
 ### Surface
 
@@ -437,7 +440,36 @@ I changed the property to have a min-width of 40% instead which fixed the proble
 
 ## Deployment
 
-TO FILL IN SECTION.
+### Creation
+
+* All code was written in Gitpod and used [this template](https://github.com/Code-Institute-Org/gitpod-full-template) from Code Insitiute.
+* Files were added to the staging area using "git add ."
+* Files were commited to the local repository using "git commit -m 'commit message here'"
+* Commited changes were pushed to the Github repository.
+
+### GitHub Pages
+
+To deploy the project to a live website the below steps were followed:
+
+* Navigate to the Github repository you wish to deploy.
+* Click on Settings and scroll to the "Github Pages" section.
+* Choose "master branch" as the source and click save.
+* Scroll back down to the "Github Pages" section and the deployed website link will be given.
+* Note: It can take a few moments for the website to be deployed, so the link may not work immediately 
+after you deploy using Github Pages.
+
+### Local Clone
+To make a local copy of a repository on your own Github account you can clone it.
+This allows others to view the original code and/or make changes to it (on their own local copy).
+Changing the code on your local repository will not affect the original code or deployed website.
+
+To clone a repository in Github you can follow the steps below:
+* Log into Github and locate the repository you wish to clone.
+* Click on the code button (to the left of the green gitpod button) and copy the https URL given.
+* Open Gitpod (or another editor if you prefer).
+* Use the "git clone 'insert copied url here'" command.
+* A clone of the original repository will now be available for you locally 
+on your own repository to view/edit as you wish.
 
 ## Credits
 
