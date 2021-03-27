@@ -58,11 +58,11 @@ This is a website for a fictional horse riding school.
 It is aimed for those who are interested in taking up horse riding or those with previous experience who wish to improve thier skills.
 The riding school is for those of any age, gender or ability. 
 
-![Home Page Mockups](assets/images/.jpg)
+![Home Page Mockups](assets/images/mockup-home.PNG)
 
-![Prices Page Mockups](assets/images/.PNG)
+![Prices Page Mockups](assets/images/mockup-prices.PNG)
 
-![Contact Page Mockups](assets/images/.PNG)
+![Contact Page Mockups](assets/images/mockup-contact.PNG)
 
 ## UX
 
@@ -392,7 +392,7 @@ This was done for all 3 pages of the website and for both mobile and desktop dev
     * From here the user can:  
       * View the carousel images  
       * Scroll down to learn more about the riding school, 
-    the "about us" section partially revealed on most devices, giving some content hinting and 
+    the "about us" section partially revealed on all devices (see mockups at the top of this file), giving some content hinting and 
     encouraging the user to scroll down.  
       * Navigate to the prices or contact pages.
 
