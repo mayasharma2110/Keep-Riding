@@ -370,7 +370,7 @@ Full reports can be found below:
 * [Desktop Prices](assets/lighthouse/lighthouse-desktop-prices.pdf)
 * [Desktop Contact](assets/lighthouse/lighthouse-desktop-contact.pdf)
 
-From the mobile home report there is a suggestion to "Serve images that are appropriately-sized to save mobile data and improve load time".
+From the home reports there is a suggestion to "Serve images that are appropriately-sized to save mobile data and improve load time".
 From this I checked [this link](https://web.dev/serve-responsive-images/) and used commands like the example given below
 to resize all carousel images 50% smaller and use these for mobile devices (width under 576px) instead of the full size image used for larger devices:
 
@@ -388,12 +388,15 @@ If more time was available more sizes could have been created using the above co
 New metrics for home page after update above:
 | Device | Page |  Performance | Accessibility  | Best Practises  | SEO |
 |---|---|---|---|---|---|
-| Mobile  |  Home | % | 100% | 93% | 100% |
-| Desktop  | Home | % | 100% | 93% | 100% |
+| Mobile  |  Home | 94% | 100% | 93% | 100% |
+| Desktop  | Home | 97% | 100% | 93% | 100% |
 
 Full reports can be found below:
-* [Mobile Home](assets/lighthouse/lighthouse-mobile-home1.pdf)
-* [Desktop Home](assets/lighthouse/lighthouse-desktop-home1.pdf)
+* [Mobile Home1](assets/lighthouse/lighthouse-mobile-home1.pdf)
+* [Desktop Home1](assets/lighthouse/lighthouse-desktop-home1.pdf)
+
+From the re-run reports above the performance of both mobile and desktop improved by this change, 
+however the mobile images could be resized a bit better from the report - the 50% I used was a rough guess as I didn't want to resize too much.
 
 ### User Stories from the UX Section
 
