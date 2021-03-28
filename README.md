@@ -32,6 +32,7 @@
   * [Prices Section](#prices-section)
   * [Contact Section](#contact-section)
   * [Online Validation](#online-validation)
+  * [Lighthouse Validation](#lighthouse-validation) 
   * [User Stories from the UX Section](#user-stories-from-the-ux-section)
   * [Fixed Bugs](#fixed-bugs)
     * [Navigation Bar Colours](#navigation-bar-colours)
@@ -345,7 +346,9 @@ I also checked the website on my HP 15 inch laptop, Philips 20 inch monitor and 
 * Used the [w3c validator](https://validator.w3.org/) to validate my html (for all 3 pages of the website) to check for no errors or warnings. 
 * Used the [jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my style.css file to check for no errors or warnings. 
 
-* Used [lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome developer tools to check the websites performance in terms of 
+### Lighthouse Validation
+
+I used [lighthouse](https://developers.google.com/web/tools/lighthouse) in chrome developer tools to check the websites performance in terms of 
 performance, accessibility, best practises and SEO.
 This was done for all 3 pages of the website and for both mobile and desktop devices.
 The summary table below shows these metrics.
@@ -366,6 +369,31 @@ Full reports can be found below:
 * [Desktop Home](assets/lighthouse/lighthouse-desktop-home.pdf)
 * [Desktop Prices](assets/lighthouse/lighthouse-desktop-prices.pdf)
 * [Desktop Contact](assets/lighthouse/lighthouse-desktop-contact.pdf)
+
+From the mobile home report there is a suggestion to "Serve images that are appropriately-sized to save mobile data and improve load time".
+From this I checked [this link](https://web.dev/serve-responsive-images/) and used commands like the example given below
+to resize all carousel images 50% smaller and use these for mobile devices (width under 576px) instead of the full size image used for larger devices:
+
+> convert -resize 33% flower.jpg flower-small.jpg
+
+I also added html code (shown below) so that the browser displays the correct size image to optimise runtime/performance.
+
+> "div class="d-sm-block d-md-none"> Small image here" 
+
+> "div class="d-none d-md-block"> Original size image here"
+
+The link above did mention that it is common to serve 3-5 sizes of an image, however in the interest of time I stuck with just 2 sizes.
+If more time was available more sizes could have been created using the above code and adding some extra html code for which image size to display and when.
+
+New metrics for home page after update above:
+| Device | Page |  Performance | Accessibility  | Best Practises  | SEO |
+|---|---|---|---|---|---|
+| Mobile  |  Home | % | 100% | 93% | 100% |
+| Desktop  | Home | % | 100% | 93% | 100% |
+
+Full reports can be found below:
+* [Mobile Home](assets/lighthouse/lighthouse-mobile-home1.pdf)
+* [Desktop Home](assets/lighthouse/lighthouse-desktop-home1.pdf)
 
 ### User Stories from the UX Section
 
