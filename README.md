@@ -345,6 +345,7 @@ I also checked the website on my HP 15 inch laptop, Philips 20 inch monitor and 
 
 * Used the [w3c validator](https://validator.w3.org/) to validate my html (for all 3 pages of the website) to check for no errors or warnings. 
 * Used the [jigsaw validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to validate my style.css file to check for no errors or warnings. 
+I did not validate css of the whole website as this included the imported bootstrap files.
 
 ### Lighthouse Validation
 
@@ -406,7 +407,7 @@ however the mobile images could be resized a bit better from the report - the 50
     * When the user first enters the site, they are greeted with a clear navigation bar when viewed on mobile or desktop devices showing the 
     company name and the 3 pages the user can view. 
     *  Below the navigation bar there is a carousel of images of horse riding and horses.
-    This clearly indicates the purpose of the website.
+    This clearly indicates the purpose of the website. There are also many pictures of horses and horse riding thoughout the website.
     The carousel will go through the pictures automatically or can use controls/indicators to pick an image to view.
     * The colour scheme (yellow and brown) also matches the theme of horses 
     and horse riding and makes it clear to the user the motivation of the website.
@@ -555,6 +556,9 @@ I added a width of auto to the element to solve the problem.
 however my label "What is your experience/ability?" was greater than 40% width on some screen sizes causing a truncation issue.  
 I changed the property to have a min-width of 40% instead which fixed the problem.
 
+* For my footer I noticed the social media links did not all fit on one line when viewed on my phone, 
+so I updated the left/right padding from 10% to 7%.
+
 ## Deployment
 
 ### Creation
@@ -599,6 +603,8 @@ I could not have added these features without bootstrap as I currently do not ha
 
 ### Content
 
+* All the content in the website is fictional and made my myself, I used one of my own pictures and other images from online, information below in the media section.
+
 * I gained inspiration for the layout of the website by looking at other horse riding websites 
 including [Hall Place Equestrian Centre](https://hall-place.com/) and [Palmers Riding Stables](http://palmers-stables.com/). 
 
@@ -611,19 +617,19 @@ about us and facilities sections on my home page.
 
 * Carousel-img4 is an image I own.
 
-* I found the following images online from [pexels](https://www.pexels.com/): 
-  * carousel-img3 - owner Helena Lopes
-  * lessons - owner Tatiana Twinslol
-  * hacks - owner Helena Lopes
-  * contact-img - owner Eberhard Grossgasteiger
-  * contact-form - owner Mali Maeder
+* I found the following images online from [Pexels](https://www.pexels.com/): 
+  * carousel-img3 - owner Helena Lopes [image link here](https://www.pexels.com/photo/white-horse-running-on-green-field-1996337/)
+  * lessons - owner Tatiana Twinslol [image link here](https://www.pexels.com/photo/women-riding-horseback-on-sand-in-paddock-5368712/)
+  * hacks - owner Helena Lopes [image link here](https://www.pexels.com/photo/people-riding-horses-during-sunset-3854868/)
+  * contact-img - owner Eberhard Grossgasteiger [image link here](https://www.pexels.com/photo/four-assorted-color-horse-on-grass-fields-near-tall-trees-during-sunset-1366913/)
+  * contact-form - owner Mali Maeder [image link here](https://www.pexels.com/photo/black-horse-running-on-green-field-surrounded-with-trees-101667/)
 
-* I found the following images online from [unsplash](https://unsplash.com/): 
-  * carousel-img2 - owner Elisa Pitkänen 
-  * special-offers - owner Raphael Wicker
+* I found the following images online from [Unsplash](https://unsplash.com/): 
+  * carousel-img2 - owner Elisa Pitkänen [image link here](https://unsplash.com/photos/3ZfwMzo9sy4)
+  * special-offers - owner Raphael Wicker [image link here](https://unsplash.com/photos/P6JRr7-FxLw)
  
-* I found the following image from [stocksnap](https://stocksnap.io/): .
-  * carousel-img1 - owner Matthias Zomer
+* I found the following image from [StockSnap](https://stocksnap.io/): .
+  * carousel-img1 - owner Matthias Zomer [image link here](https://stocksnap.io/photo/lawn-green-3EV0OZ7ZJO)
 
 * Please note I did minor editing (cropping only) to some of these photos.
 
@@ -634,10 +640,11 @@ from this [stack overflow post](https://stackoverflow.com/questions/9116689/fiel
 
 * Code Institute for teaching me the basics of HTML, CSS and bootstrap to allow me to create this website.
 
-* My mentor who helped provide feedback on this website and improvements that could be made.
+* My mentor Antonio Rodriguez who helped provide feedback on this website and improvements that could be made.
 
 * The Slack community for providing support throughout the course so far.  
-Also, specifically to members who gave feedback on the website and any improvements/changes that could be made. 
+
+* Thanks to the fellow students on Slack and my friends who viewed the website and gave feedback on any improvements/changes that could be made. 
 
 * The websites that I used to gain inspiration for creating my own horse riding school website 
 ([Hall Place Equestrian Centre](https://hall-place.com/) and [Palmers Riding Stables](http://palmers-stables.com/)).
