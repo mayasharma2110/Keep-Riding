@@ -56,6 +56,17 @@ body {
     text-decoration: dashed underline saddlebrown;
 }
 
+.navbar-light .navbar-toggler {
+    color: palegoldenrod;
+    border: 1px solid saddlebrown;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* navbar hover */
+
 .navbar-light .navbar-brand:hover, 
 .navbar-light .navbar-nav .nav-link:hover {
     color: #0c0cff;
@@ -65,15 +76,6 @@ body {
 .navbar-light .navbar-nav .active>.nav-link:hover {
     color: #0c0cff;
     font-weight: bold;
-}
-
-.navbar-light .navbar-toggler {
-    color: palegoldenrod;
-    border: 1px solid saddlebrown;
-}
-
-button:focus {
-    outline: none;
 }
 
 /* footer */
@@ -190,6 +192,8 @@ footer {
     width: 100%;
 }
 
+/* prices table */
+
 .prices table {
     width: 100%;
     color: saddlebrown;
@@ -258,6 +262,8 @@ footer {
     font-weight: normal;
     color: whitesmoke;
 }
+
+/* contact - opening hours table */
 
 .contact-img #contact-table {
     background-color: rgba(1,1,1,0.2);
@@ -398,6 +404,8 @@ form textarea, form select {
 form textarea {
     width: 100%;
 }
+
+/* contact form - submit and reset buttons*/
 
 form .submit-reset {
     width: 100%;

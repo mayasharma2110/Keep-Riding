@@ -56,17 +56,21 @@
 
     <!-- Boostrap -->
     <div id="carouselindicators" class="carousel slide" data-ride="carousel">
+        <!-- carousel indicators at the bottom -->
         <ol class="carousel-indicators">
             <li data-target="#carouselindicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselindicators" data-slide-to="1"></li>
             <li data-target="#carouselindicators" data-slide-to="2"></li>
             <li data-target="#carouselindicators" data-slide-to="3"></li>
         </ol>
+        <!-- carousel images -->
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <!-- show on small devices and not medium and larger -->
                 <div class="d-sm-block d-md-none">
                      <img class="d-block w-100" src="assets/images/carousel-img1-small.jpg" alt="First slide - show jumping">
                 </div>
+                <!-- dont show on small devices and show on medium and larger -->
                 <div class="d-none d-md-block">
                      <img class="d-block w-100" src="assets/images/carousel-img1.jpg" alt="First slide - show jumping">
                 </div>
@@ -96,18 +100,22 @@
                 </div>
             </div>
         </div>
+        <!-- carousel left/prev control -->
         <a class="carousel-control-prev" href="#carouselindicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
+        <!-- carousel right/next control -->
         <a class="carousel-control-next" href="#carouselindicators" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
     </div>
 
+    <!-- 3 sections - about us, facilities and reviews -->
     <div class="container-fluid home">
         <div class="row">
+            <!-- about us -->
             <div class="col-12 ">
                 <div class="introduction about-us">
                     <h2>About Us</h2>
@@ -122,6 +130,7 @@
                     </p>
                 </div>
             </div>
+            <!-- facilities -->
             <div class="col-12 col-md-6">
                 <div class="introduction facilities">
                     <h2>Facilities</h2>
@@ -135,6 +144,7 @@
                     </ul>
                 </div>
             </div>
+            <!-- reviews -->
             <div class="col-12 col-md-6">
                 <div class="introduction reviews">
                     <h2>Reviews</h2>
@@ -147,6 +157,7 @@
         </div>
     </div>
 
+    <!-- footer with social media links -->
     <footer>
         <ul class="socialmedia">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
