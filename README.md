@@ -59,11 +59,11 @@ This is a website for a fictional horse riding school.
 It is aimed for those who are interested in taking up horse riding or those with previous experience who wish to improve their skills.
 The riding school is for those of any age, gender or ability. 
 
-![Home Page Mockups](assets/images/mockup-home.PNG)
+![Home Page Mockups](assets/mockups/mockup-home.PNG)
 
-![Prices Page Mockups](assets/images/mockup-prices.PNG)
+![Prices Page Mockups](assets/mockups/mockup-prices.PNG)
 
-![Contact Page Mockups](assets/images/mockup-contact.PNG)
+![Contact Page Mockups](assets/mockups/mockup-contact.PNG)
 
 ## UX
 
@@ -166,20 +166,44 @@ The wireframes were created for all pages for phone, tablet and desktop devices.
 
 #### Wireframes Home
 
+Mobile
+
 ![Home Page Phone Wireframes](assets/wireframes/home-phone.PNG)  
-![Home Page Tablet Wireframes](assets/wireframes/home-tablet.PNG)  
+
+Tablet
+
+![Home Page Tablet Wireframes](assets/wireframes/home-tablet.PNG)
+
+Desktop
+
 ![Home Page Desktop Wireframes](assets/wireframes/home-desktop.PNG)  
 
 #### Wireframes Prices
 
+Mobile
+
 ![Prices Page Phone Wireframes](assets/wireframes/prices-phone.PNG)  
-![Prices Page Tablet Wireframes](assets/wireframes/prices-tablet.PNG)  
+
+Tablet
+
+![Prices Page Tablet Wireframes](assets/wireframes/prices-tablet.PNG) 
+
+Desktop
+
 ![Prices Page Desktop Wireframes](assets/wireframes/prices-desktop.PNG) 
 
 #### Wireframes Contact
 
+Mobile
+
 ![Contact Page Phone Wireframes](assets/wireframes/contact-phone.PNG)  
-![Contact Page Tablet Wireframes](assets/wireframes/contact-tablet.PNG)  
+
+Tablet
+
+![Contact Page Tablet Wireframes](assets/wireframes/contact-tablet.PNG) 
+
+Desktop
+
 ![Contact Page Desktop Wireframes](assets/wireframes/contact-desktop.PNG)  
 
 The full wireframes can be found [here](assets/wireframes/Keep_Riding_Wireframes.bmpr).
@@ -388,6 +412,9 @@ I also added html code (shown below) so that the browser displays the correct si
 
 > "div class="d-none d-md-block"> Original size image here"
 
+I also resized the images used on the contact page in case this improved performance although it was not directly suggested in the report.
+I added a media query into css so that small devices used the resized image instead.
+
 The link above did mention that it is common to serve 3-5 sizes of an image, however in the interest of time I stuck with just 2 sizes.
 If more time was available more sizes could have been created using the above code and adding some extra html code for which image size to display and when.
 
@@ -396,10 +423,14 @@ New metrics for home page after update above:
 |---|---|---|---|---|---|
 | Mobile  |  Home | 94% | 100% | 93% | 100% |
 | Desktop  | Home | 97% | 100% | 93% | 100% |
+| Mobile  |  Contact | % | 100% | 93% | 100% |
+| Desktop  | Contact | % | 100% | 93% | 100% |
 
 Full reports can be found below:
 * [Mobile Home1](assets/lighthouse/lighthouse-mobile-home1.pdf)
 * [Desktop Home1](assets/lighthouse/lighthouse-desktop-home1.pdf)
+* [Mobile Home1](assets/lighthouse/lighthouse-mobile-contact1.pdf)
+* [Desktop Home1](assets/lighthouse/lighthouse-desktop-contact1.pdf)
 
 From the re-run reports above the performance of both mobile and desktop improved by this change, 
 however the mobile images could be resized a bit better from the report - the 50% I used was a rough guess as I didn't want to resize too much.
@@ -494,9 +525,9 @@ however the mobile images could be resized a bit better from the report - the 50
 #### Navigation Bar Colours
 
 In the navigation bar the active page text was not showing as the correct colour (saddlebrown).
-![Navbar problem](assets/images/navbar-problem.PNG)
+![Navbar problem](assets/bugs/navbar-problem.PNG)
 I discovered the problem using chrome developer tools to find the css selector of the problem text.  
-![Navbar fix](assets/images/navbar-fix.PNG)
+![Navbar fix](assets/bugs/navbar-fix.PNG)
 
 #### Collapsible Hamburger Menu
 
@@ -505,7 +536,7 @@ I also did not want the underline to be shown on the active page in this circums
 
 From looking in chrome developer tools I noticed the change in the classes of the div element (highlighted below) 
 from "collapse" to "collapsing" to "collapse show".
-![Hamburger problem](assets/images/hamburger-menu.PNG)
+![Hamburger problem](assets/bugs/hamburger-menu.PNG)
 
 Therefore, I thought I could target the below css selectors. 
 
@@ -537,9 +568,9 @@ problem and then I googled and found this [stack overflow post](https://stackove
 Running the example demonstrates the problem clearly (images below) you can see that the parent 
 does not have the height which aligns with that of the fieldsets.
 
-![Fieldset problem result](assets/images/fieldset-problem.PNG)
-![Fieldset problem html](assets/images/fieldset-html.PNG)
-![Fieldset problem css](assets/images/fieldset-css.PNG)
+![Fieldset problem result](assets/bugs/fieldset-problem.PNG)
+![Fieldset problem html](assets/bugs/fieldset-html.PNG)
+![Fieldset problem css](assets/bugs/fieldset-css.PNG)
 
 After some trial and error, I found that commenting out the padding and margins in the css resulted in the below
 desired result:

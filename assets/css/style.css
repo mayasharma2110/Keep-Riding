@@ -457,6 +457,15 @@ form button:hover {
         text-decoration: none;
     }
 
+    /* Use resized images for small devices */
+    .contact-img {
+    background-image: url(../images/contact-img-small.jpg);
+    }
+
+    .contact-form {
+    background-image: url(../images/contact-form-small.jpg);
+    }
+
 }
 
 /* Screen more than 768px */
