@@ -352,6 +352,7 @@ I also checked the controls and indicators work as expected to allow the user to
 * Checked the form makes a user enter all text fields (name, email, phone number), 
 tick one of the radio box options, select an experience/ability level 
 and enter some text in the enquiry textarea.
+The form does not check for a reasonable phone number currently, only that something is entered.
 
 * Checked the form only takes an email with a @ in the field.
 
@@ -402,38 +403,39 @@ Full reports can be found below:
 
 From the home reports there is a suggestion to "Serve images that are appropriately-sized to save mobile data and improve load time".
 From this I checked [this link](https://web.dev/serve-responsive-images/) and used commands like the example given below
-to resize all carousel images 50% smaller and use these for mobile devices (width under 576px) instead of the full size image used for larger devices:
+to resize all carousel images 50% smaller and use these for small devices (width under 768px) instead of the full size image used for larger devices:
 
 > convert -resize 33% flower.jpg flower-small.jpg
 
 I also added html code (shown below) so that the browser displays the correct size image to optimise runtime/performance.
 
-> "div class="d-sm-block d-md-none"> Small image here" 
+> div class="d-sm-block d-md-none --> Small image here 
 
-> "div class="d-none d-md-block"> Original size image here"
+> div class="d-none d-md-block" --> Original size image here
 
-I also resized the images used on the contact page in case this improved performance although it was not directly suggested in the report.
+I also resized (50%) the images used on the contact page in case this improved performance although it was not directly suggested in the report.
 I added a media query into css so that small devices used the resized image instead.
 
 The link above did mention that it is common to serve 3-5 sizes of an image, however in the interest of time I stuck with just 2 sizes.
-If more time was available more sizes could have been created using the above code and adding some extra html code for which image size to display and when.
+If more time was available more sizes could have been created using the above code and adding some extra html/css code for which image size to display and when.
 
-New metrics for home page after update above:
+New metrics for home and contact pages after update above:
 | Device | Page |  Performance | Accessibility  | Best Practises  | SEO |
 |---|---|---|---|---|---|
 | Mobile  |  Home | 94% | 100% | 93% | 100% |
 | Desktop  | Home | 97% | 100% | 93% | 100% |
-| Mobile  |  Contact | % | 100% | 93% | 100% |
-| Desktop  | Contact | % | 100% | 93% | 100% |
+| Mobile  |  Contact | 80% | 100% | 93% | 100% |
+| Desktop  | Contact | 95% | 100% | 93% | 100% |
 
 Full reports can be found below:
-* [Mobile Home1](assets/lighthouse/lighthouse-mobile-home1.pdf)
-* [Desktop Home1](assets/lighthouse/lighthouse-desktop-home1.pdf)
-* [Mobile Home1](assets/lighthouse/lighthouse-mobile-contact1.pdf)
-* [Desktop Home1](assets/lighthouse/lighthouse-desktop-contact1.pdf)
+* [Mobile Home Rerun](assets/lighthouse/lighthouse-mobile-home1.pdf)
+* [Desktop Home Rerun](assets/lighthouse/lighthouse-desktop-home1.pdf)
+* [Mobile Contact Rerun](assets/lighthouse/lighthouse-mobile-contact1.pdf)
+* [Desktop Contact Rerun](assets/lighthouse/lighthouse-desktop-contact1.pdf)
 
-From the re-run reports above the performance of both mobile and desktop improved by this change, 
+From the re-run reports above the performance of both mobile and desktop home page improved by this change, 
 however the mobile images could be resized a bit better from the report - the 50% I used was a rough guess as I didn't want to resize too much.
+The performance of mobile and desktop contact page also improved, however there could still be some improvement for the mobile.
 
 ### User Stories from the UX Section
 
