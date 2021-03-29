@@ -230,6 +230,7 @@ The two fonts used are from google fonts these are Roboto Slab for the headings 
 #### Imagery
 
 I found some images from the internet and further information can be found in the credits section.
+I aimed to pick a good balance of images to show horse riding in action and also horses in a field.
 
 ## Features
 
@@ -253,7 +254,11 @@ I found some images from the internet and further information can be found in th
 ### Features Left to Implement
 
 * It would be nice to add a gallery of the horses at the school with a brief description of each. 
+Key information for each horse could include name, age, sex, breed, colour, likes and dislikes.
 This would make the riding school and horses feel more personable to users.
+
+* It would be good for the site to include information on the instructors so the user is more confident in picking this school.
+Information such as years of riding experience, years of teaching experience and any awards received from competitions. 
 
 * It would be nice to have a carousel for the reviews of the riding school on the home page. 
 This would allow for many reviews to be displayed on the site without taking up too much space
@@ -454,7 +459,7 @@ however the mobile images could be resized a bit better from the report - the 50
     * When the form is submitted successfully the user is taken to another page that confirms their message has been received.
 
   * As a returning user, I want to find out where I can follow the riding school on social media platforms.
-    * Social media links are displayed in the footer of each page.
+    * Social media links are displayed in the footer of each page. The footer uses icons which are widely used across the internet so the user will be familiar with what they mean.
     * The footer fills the full width of the device screen, is the same on all 3 pages and placed at the bottom of each page.
     * The links open in a new tab so that the user can view these social media accounts
     and follow/like the school, while remaining on the original website.
@@ -469,6 +474,20 @@ however the mobile images could be resized a bit better from the report - the 50
   * As a frequent user, I want to check the cost of the lessons offered and see if there are any special offers.
     * A frequent user can check the cost of lessons offered by viewing the prices page of the website 
      and they can scroll to the bottom to see information of any special offers.
+
+* Business Goals
+
+  * Increase interaction with potential new customers.
+    * Users can use the contact form as a way of interacting with the school. 
+    They can also follow/like the school on various social media platforms and like/share content they post.
+
+  * Increase presence and following on social media platforms including Facebook and Instagram.
+    * Social media links are displayed clearly in the footer and using conventional icons.
+
+  * Increase the number of lessons/hacks booked.
+    * Information on services offered is clearly in the prices page of the website, 
+    there is also a section on special offers to entice potential new customers.
+    Users can then use the contact form to get in touch with the school to book.
 
 ### Fixed Bugs
 
@@ -513,8 +532,7 @@ positioning and making them inside the fieldset in some situations.
 
 I tried experimenting with different height values for fieldset and its parent div which did not solve the 
 problem and then I googled and found this [stack overflow post](https://stackoverflow.com/questions/9116689/fieldset-does-not-follow-its-parents-height
-) and from the post some [runnable example that explains my problem clearly ](http://jsfiddle.net/3hfytpw4/).  
-
+) and from the post some [runnable example that explains the problem clearly](http://jsfiddle.net/3hfytpw4/).  
 
 Running the example demonstrates the problem clearly (images below) you can see that the parent 
 does not have the height which aligns with that of the fieldsets.

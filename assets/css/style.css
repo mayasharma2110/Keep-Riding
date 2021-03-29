@@ -223,7 +223,7 @@ footer {
     width: 90%;
     height: 450px;
     margin: 2rem 5% 1rem 5%;
-    background-color: palegoldenrod;
+    background-color: saddlebrown;
     border: 1px solid saddlebrown;
     background-image: url(../images/contact-img.jpg);
     background-repeat: no-repeat;
@@ -316,7 +316,7 @@ footer {
 form {
     width: 90%;
     margin: 2rem 5% 1rem 5%;
-    background-color: palegoldenrod;
+    background-color: saddlebrown;
     border: 1px solid saddlebrown;
     background-image: url(../images/contact-form.jpg);
     background-repeat: no-repeat;
