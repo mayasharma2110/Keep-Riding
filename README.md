@@ -27,6 +27,7 @@
     * [Features Left to Implement](#features-left-to-inplement)
 * [Technologies Used](#technologies-used)
 * [Testing](#testing)
+  * [Margins](#margins)
   * [Headers and Footers](#headers-and-footers)
   * [Home Section](#home-section)
   * [Prices Section](#prices-section)
@@ -316,9 +317,13 @@ are used throughout the website.
 
 ## Testing
 
+### Margins
+
+* Checked the margins are consistent across all pages and that they respond to changes in device width in the same way.
+
 ### Headers and Footers
 
-* Checked the links in navigation bar and footer worked. 
+* Checked the links in navigation bar and footer worked for all 3 pages. 
 
 * Checked the navigation bar showed the user what page they were on with a bottom border.
 
@@ -333,7 +338,9 @@ are used throughout the website.
 * Checked the carousel is responsive and changes image automatically.  
 I also checked the controls and indicators work as expected to allow the user to view a specific image. 
 
-* Checked the elements are responsive to different size devices.
+* Checked the layout of 3 sections is responsive to different size devices.
+
+* Checked the resized images are used on small screens to improve load time and that the images still look good.
 
 ### Prices Section
 
@@ -341,20 +348,23 @@ I also checked the controls and indicators work as expected to allow the user to
 
 * Checked there was a bottom margin between picture and tables when viewed on small device and right margin when viewed on medium and larger devices due to the change in layout.
 
+* Checked the images always fill width 100% of their parent div and the height adjusts automatically.
+
 * Checked the images look good when viewed on different screen sizes.
 
 ### Contact Section
 
-* Checked the contact-img is responsive and changes in height on different devices.
+* Checked the contact-img is responsive to different size devices. 
+  * The height changes based on the device the website is viewed on.
+  * The positioning changes based on the device the website is viewed on.
 
-* Checked the contact-img positioning is responsive when viewed on different devices.
+* Checked the motivational text and opening times table are horizontally centered in the contact-img.
 
-* Checked the form makes a user enter all text fields (name, email, phone number), 
+* Checked the form makes a user enter all text fields: name, email (needs an @ in the field), phone number, 
 tick one of the radio box options, select an experience/ability level 
 and enter some text in the enquiry textarea.
-The form does not check for a reasonable phone number currently, only that something is entered.
-
-* Checked the form only takes an email with a @ in the field.
+The form does not check for a correct phone number format currently, only that something is entered. 
+To validate a correct number format is entered this requires JavaScript.
 
 * Checked the form is responsive to different size devices. 
   * The label, input and textarea widths change based on the device the website is viewed on.
@@ -445,7 +455,7 @@ The performance of mobile and desktop contact page also improved, however there 
     * When the user first enters the site, they are greeted with a clear navigation bar when viewed on mobile or desktop devices showing the 
     company name and the 3 pages the user can view. 
     *  Below the navigation bar there is a carousel of images of horse riding and horses.
-    This clearly indicates the purpose of the website. There are also many pictures of horses and horse riding thoughout the website.
+    This clearly indicates the purpose of the website. There are also many pictures of horses and horse riding throughout the website.
     The carousel will go through the pictures automatically or can use controls/indicators to pick an image to view.
     * The colour scheme (yellow and brown) also matches the theme of horses 
     and horse riding and makes it clear to the user the motivation of the website.
