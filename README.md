@@ -255,13 +255,14 @@ The two fonts used are from google fonts these are Roboto Slab for the headings 
 #### Imagery
 
 I found some images from the internet and further information can be found in the credits section.
-I aimed to pick a good balance of images to show horse riding in action and also horses in a field.
+I aimed to pick a good balance of images to show horse riding in action and horses in a field.
 
 ## Features
 
 ### Existing Features
 
 * Responsive on mobile, tablet and laptop size devices.
+
 * Interactive elements:
   * Navbar becomes a burger menu on mobile, also hovering over elements (in navigation bar and footer) gives a colour change.
   * Carousel for user to scroll through photos of horses and horse riding in action.
@@ -282,7 +283,7 @@ I aimed to pick a good balance of images to show horse riding in action and also
 Key information for each horse could include name, age, sex, breed, colour, likes and dislikes.
 This would make the riding school and horses feel more personable to users.
 
-* It would be good for the site to include information on the instructors so the user is more confident in picking this school.
+* It would be good for the site to include information on the instructors, so the user is more confident in picking this school.
 Information such as years of riding experience, years of teaching experience and any awards received from competitions. 
 
 * It would be nice to have a carousel for the reviews of the riding school on the home page. 
@@ -543,7 +544,7 @@ I discovered the problem using chrome developer tools to find the css selector o
 
 #### Collapsible Hamburger Menu
 
-When the hamburger menu was opened on a small screen I wanted the navigational items to have smaller text and less padding.
+When the hamburger menu was opened on a small screen, I wanted the navigational items to have smaller text and less padding.
 I also did not want the underline to be shown on the active page in this circumstance.
 
 From looking in chrome developer tools I noticed the change in the classes of the div element (highlighted below) 
@@ -602,7 +603,7 @@ I removed this from the html and instead targeted these elements in the css file
 has many colours.  
 I added a black transparent overlay so that the white text could be seen easier.
 
-* For the contact form I added a black transparent overlay similar to above, so the white test was easier to read 
+* For the contact form I added a black transparent overlay similar to above, so the white text was easier to read 
 where the image had a lighter green colour.  
 However, this made the heading, submit and reset buttons look faded out due to the overlay.  
 I added the position relative to these elements to solve the issue.
