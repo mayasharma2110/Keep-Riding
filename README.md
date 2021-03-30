@@ -1,8 +1,20 @@
 # Keep Riding
 
+[Link to live project.](https://mayasharma2110.github.io/Keep-Riding/)
+
+This is a website for a fictional horse riding school.  
+
+It is aimed for those who are interested in taking up horse riding or those with previous experience who wish to improve their skills.
+The riding school is for those of any age, gender or ability. 
+
+![Home Page Mockups](assets/mockups/mockup-home.PNG)
+
+![Prices Page Mockups](assets/mockups/mockup-prices.PNG)
+
+![Contact Page Mockups](assets/mockups/mockup-contact.PNG)
+
 ## Table of Contents
 
-* [Purpose](#purpose)
 * [UX](#ux)
   * [User Stories](#user-stories)
     * [First Time Visitor Goals](#first-time-visitor-goals)
@@ -45,26 +57,12 @@
   * [Creation](#creation)
   * [GitHub Pages](#github-pages)
   * [Local Clone](#local-clone)
+  * [Forking](#forking)
 * [Credits](#credits)
   * [Code](#code)
   * [Content](#content)
   * [Media](#media)
   * [Acknowledgments](#acknowledgments)
-
-## Purpose
-
-[Link to live project.](https://mayasharma2110.github.io/Keep-Riding/)
-
-This is a website for a fictional horse riding school.  
-
-It is aimed for those who are interested in taking up horse riding or those with previous experience who wish to improve their skills.
-The riding school is for those of any age, gender or ability. 
-
-![Home Page Mockups](assets/mockups/mockup-home.PNG)
-
-![Prices Page Mockups](assets/mockups/mockup-prices.PNG)
-
-![Contact Page Mockups](assets/mockups/mockup-contact.PNG)
 
 ## UX
 
@@ -587,7 +585,7 @@ does not have the height which aligns with that of the fieldsets.
 
 After some trial and error, I found that commenting out the padding and margins in the css resulted in the below
 desired result:
-![Fieldset problem css](assets/images/fieldset-fix.PNG)
+![Fieldset problem css](assets/bugs/fieldset-fix.PNG)
 
 I removed the top/bottom padding and margins of fieldset and added these instead to the parent/child elements 
 of fieldset. Note: The left/right padding and margins did not seem to cause any problems. Perhaps there is a more elegant solution to what I used but this worked fine for my needs, although a bit cumbersome.
@@ -652,6 +650,15 @@ To clone a repository in GitHub you can follow the steps below:
 * Open Gitpod (or another editor if you prefer).
 * Use the "git clone 'insert copied URL here'" command.
 * A clone of the original repository will now be available for you locally 
+on your own repository to view/edit as you wish.
+
+### Forking
+
+Forking is another way to  make a local copy of a repository on your own GitHub account to do this follow the below steps:
+
+* Log into GitHub and locate the repository you wish to fork.
+* At the top-right of the repository (and top-right of the green Gitpod button), locate the fork button.
+* A copy of the original repository will now be available for you locally 
 on your own repository to view/edit as you wish.
 
 ## Credits
