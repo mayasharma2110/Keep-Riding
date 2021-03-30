@@ -283,8 +283,8 @@ I aimed to pick a good balance of images to show horse riding in action and hors
 Key information for each horse could include name, age, sex, breed, colour, likes and dislikes.
 This would make the riding school and horses feel more personable to users.
 
-* It would be good for the site to include information on the instructors, so the user is more confident in picking this school.
-Information such as years of riding experience, years of teaching experience and any awards received from competitions. 
+* It would be good for the site to include information on the instructors so the user is more confident in picking this school.
+Details for each instructor could include name, age, years of riding experience, years of teaching experience and any awards received from competitions.  
 
 * It would be nice to have a carousel for the reviews of the riding school on the home page. 
 This would allow for many reviews to be displayed on the site without taking up too much space
