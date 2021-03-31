@@ -7,6 +7,7 @@ This is a website for a fictional horse riding school.
 It is aimed for those who are interested in taking up horse riding or those with previous experience who wish to improve their skills.
 The riding school is for those of any age, gender or ability. 
 
+Mockups:
 ![Home Page Mockups](assets/mockups/mockup-home.PNG)
 
 ![Prices Page Mockups](assets/mockups/mockup-prices.PNG)
@@ -418,17 +419,17 @@ to resize all carousel images 50% smaller and use these for small devices (width
 
 I also added html code (shown below) so that the browser displays the correct size image to optimise runtime/performance.
 
-> div class="d-sm-block d-md-none --> Small image here 
+> div class="d-sm-block d-md-none" --> Small image here 
 
 > div class="d-none d-md-block" --> Original size image here
 
 I also resized (50%) the images used on the contact page in case this improved performance although it was not directly suggested in the report.
 I added a media query into css so that small devices used the resized image instead.
 
-The link above did mention that it is common to serve 3-5 sizes of an image, however in the interest of time I stuck with just 2 sizes.
+The link above did mention that it is common to serve 3-5 sizes of an image, however in the interest of time I served 2 sizes of each image.
 If more time was available more sizes could have been created using the above code and adding some extra html/css code for which image size to display and when.
 
-New metrics for home and contact pages after update above:
+New metrics for home and contact pages after updates above:
 | Device | Page |  Performance | Accessibility  | Best Practises  | SEO |
 |---|---|---|---|---|---|
 | Mobile  |  Home | 94% | 100% | 93% | 100% |
@@ -461,8 +462,9 @@ The performance of mobile and desktop contact page also improved, however there 
     * From here the user can:  
       * View the carousel images  
       * Scroll down to learn more about the riding school, 
-    the "about us" section partially revealed on all devices (see mockups at the top of this file), giving some content hinting and 
-    encouraging the user to scroll down.  
+    the "about us" section partially revealed on most devices (see mockups at the top of this file), giving some content hinting and 
+    encouraging the user to scroll down. 
+    The "about us" section is fully revealed when the website is viewed on a tablet and the "facilities" and "reviews" sections are partially revealed.  
       * Navigate to the prices or contact pages.
 
   * As a first time user, I want to be able to navigate through the site easily.
@@ -477,10 +479,10 @@ The performance of mobile and desktop contact page also improved, however there 
     * The margins and padding respond to the width of the device throughout the site.
     Less margins are given for smaller width devices and more for those with a larger width.
     * All text is easily read when viewed on any device.  
-      * The font-size and padding of the links in the navigation bar are smaller when viewed on a mobile device.  
+      * The font-size and padding of the links in the hamburger menu are smaller when viewed on a mobile device.  
       * The font-size of the opening hours table content is smaller when viewed on a mobile device.
     * All images are clear when viewed on any device.  
-    Also, the background image for the form has different positioning for different devices so the horse can always be seen.
+    Also, the background images for the opening hours table and form have different positioning for different devices so the horse(s) can always be seen.
   
   * As a first time user, I want to see what facilities are offered by the riding school.
     * This is shown clearly in its own section on the home page.
@@ -498,6 +500,7 @@ The performance of mobile and desktop contact page also improved, however there 
   * As a returning user, I want to contact the school to book a lesson and/or ask for additional information.
     * There is a clear contact page and contact form there the user can ask for more information or also enquire about a new or existing booking.
     * There are also the opening times for the school on this page so the user can have an idea on when to expect a response back from the school.
+    They can also get an idea if the timing lessons offered would fit with their schedule.
     * When the form is submitted successfully the user is taken to another page that confirms their message has been received.
 
   * As a returning user, I want to find out where I can follow the riding school on social media platforms.
@@ -547,6 +550,7 @@ I also did not want the underline to be shown on the active page in this circums
 
 From looking in chrome developer tools I noticed the change in the classes of the div element (highlighted below) 
 from "collapse" to "collapsing" to "collapse show".
+
 ![Hamburger problem](assets/bugs/hamburger-menu.PNG)
 
 Therefore, I thought I could target the below css selectors. 
@@ -625,7 +629,7 @@ so I updated the left/right padding from 10% to 7%.
 
 * All code was written in Gitpod and used [this template](https://github.com/Code-Institute-Org/gitpod-full-template) from Code Institute.
 * Files were added to the staging area using "git add ."
-* Files were committed to the local repository using "git commit -m 'commit message here'"
+* Files were committed to the local repository using "git commit -m 'commit message here'".
 * Committed changes were pushed to the GitHub repository.
 
 ### GitHub Pages
